@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Aperture Portfolio artwork</title>
+  <desc id="desc">Layered photography frames showing abstract mountains at sunset.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f1ea"/>
+      <stop offset="1" stop-color="#e7ddd0"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f9d6b0"/>
+      <stop offset=".55" stop-color="#e8a87c"/>
+      <stop offset="1" stop-color="#b5674d"/>
+    </linearGradient>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c7d9e8"/>
+      <stop offset=".6" stop-color="#8aa7bf"/>
+      <stop offset="1" stop-color="#536c82"/>
+    </linearGradient>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e4d3e9"/>
+      <stop offset=".55" stop-color="#b597b8"/>
+      <stop offset="1" stop-color="#6e5a75"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#57483a" flood-opacity=".25"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="1070" cy="100" r="210" fill="#d6c7b4" opacity=".4"/>
+  <circle cx="80" cy="730" r="180" fill="#fbbf24" opacity=".12"/>
+  <g>
+    <text x="86" y="102" font-family="Georgia, serif" font-size="34" fill="#3f3429">Aperture</text>
+    <text x="86" y="130" font-family="Inter, Segoe UI, sans-serif" font-size="10" letter-spacing="4" fill="#7a6a58">SELECTED WORKS / 2023</text>
+    <line x1="86" y1="154" x2="270" y2="154" stroke="#b8a892"/>
+    <text x="86" y="196" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#6f6152">01 &#160; Coastline</text>
+    <text x="86" y="226" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#a2917c">02 &#160; High desert</text>
+    <text x="86" y="256" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#a2917c">03 &#160; Quiet rooms</text>
+    <text x="86" y="286" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#a2917c">04 &#160; After rain</text>
+    <text x="86" y="740" font-family="Inter, Segoe UI, sans-serif" font-size="10" fill="#8b7b68">Scroll to explore the series</text>
+    <line x1="86" y1="704" x2="196" y2="704" stroke="#b8a892"/>
+    <line x1="86" y1="704" x2="142" y2="704" stroke="#6f6152" stroke-width="2"/>
+  </g>
+  <g transform="rotate(-3 620 410)" filter="url(#shadow)">
+    <rect x="316" y="168" width="460" height="500" rx="10" fill="#ffffff"/>
+    <rect x="332" y="184" width="428" height="468" fill="url(#sky)"/>
+    <circle cx="560" cy="352" r="58" fill="#fef3c7" opacity=".85"/>
+    <path d="M332 548l88-160 76 108 82-132 86 136 96-88v240H332Z" fill="#7c4a3a" opacity=".8"/>
+    <path d="M332 596l112-126 92 108 76-72 148 116v30H332Z" fill="#4d2d2b"/>
+    <path d="M332 622c80-32 150-24 218 6s134 22 210-10v34H332Z" fill="#2d1f22"/>
+    <text x="356" y="216" font-family="Inter, Segoe UI, sans-serif" font-size="10" letter-spacing="3" fill="#fff7ed">COASTLINE / 01</text>
+    <text x="356" y="664" font-family="Georgia, serif" font-size="16" font-style="italic" fill="#fff7ed" opacity=".85">Where the light settles.</text>
+  </g>
+  <g transform="rotate(4 885 390)" filter="url(#shadow)">
+    <rect x="724" y="170" width="338" height="420" rx="10" fill="#ffffff"/>
+    <rect x="740" y="186" width="306" height="388" fill="url(#sky2)"/>
+    <circle cx="940" cy="300" r="40" fill="#eef6ff" opacity=".7"/>
+    <path d="M740 470l64-118 58 76 66-106 74 110 44-28v170H740Z" fill="#3b556a" opacity=".75"/>
+    <path d="M740 540l86-96 62 70 66-46 92 82v24H740Z" fill="#263b4d"/>
+    <path d="M740 590c60-18 120-16 176 4s104 18 130 6v34H740Z" fill="#172633"/>
+    <text x="764" y="216" font-family="Inter, Segoe UI, sans-serif" font-size="9" letter-spacing="3" fill="#eff6ff">HIGH DESERT / 02</text>
+  </g>
+  <g transform="rotate(-1 850 630)" filter="url(#shadow)">
+    <rect x="668" y="552" width="310" height="156" rx="10" fill="#ffffff"/>
+    <rect x="682" y="566" width="282" height="128" fill="url(#sky3)"/>
+    <path d="M682 650l50-42 46 28 56-52 58 50 72-34v94H682Z" fill="#5d4a66" opacity=".8"/>
+    <path d="M682 674c42-16 88-12 128 4s92 12 154-4v20H682Z" fill="#372c42"/>
+    <text x="704" y="594" font-family="Inter, Segoe UI, sans-serif" font-size="9" letter-spacing="3" fill="#faf5ff">QUIET ROOMS / 03</text>
+  </g>
+  <g>
+    <circle cx="1092" cy="676" r="44" fill="none" stroke="#8b7b68" stroke-width="1"/>
+    <circle cx="1092" cy="676" r="34" fill="none" stroke="#b8a892" stroke-width="1"/>
+    <circle cx="1092" cy="676" r="8" fill="#6f6152"/>
+    <line x1="1092" y1="618" x2="1092" y2="638" stroke="#8b7b68"/>
+    <line x1="1092" y1="714" x2="1092" y2="734" stroke="#8b7b68"/>
+    <line x1="1034" y1="676" x2="1054" y2="676" stroke="#8b7b68"/>
+    <line x1="1130" y1="676" x2="1150" y2="676" stroke="#8b7b68"/>
+  </g>
+  <g font-family="Inter, Segoe UI, sans-serif">
+    <line x1="86" y1="330" x2="250" y2="330" stroke="#b8a892"/>
+    <text x="86" y="366" font-family="Georgia, serif" font-size="25" fill="#3f3429">A study in</text>
+    <text x="86" y="398" font-family="Georgia, serif" font-size="25" fill="#3f3429">slowing down.</text>
+    <text x="86" y="428" font-size="10" fill="#8b7b68">Twenty-four frames across four series.</text>
+  </g>
+</svg>

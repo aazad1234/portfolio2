@@ -1,0 +1,64 @@
+<header class="site-header" data-site-header>
+  <div class="site-header__inner">
+    <div class="container site-header__bar">
+      <a class="brand" href="index.html" aria-label="John Anderson, home">
+        <span class="brand__wordmark">John<span class="brand__dot" aria-hidden="true">.</span></span>
+        <span class="brand__meta">Full Stack Developer</span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <ul class="nav-list" id="primary-nav-list">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false">
+          <i class="ri-moon-line" data-theme-icon aria-hidden="true"></i>
+        </button>
+        <a class="btn btn--primary btn--sm header-cta" href="contact.html">
+          Let's talk
+          <i class="ri-arrow-right-up-line" aria-hidden="true"></i>
+        </a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation menu">
+          <span class="nav-toggle__box" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-nav" id="mobile-nav" hidden>
+    <button class="mobile-nav__backdrop" type="button" data-nav-close tabindex="-1" aria-hidden="true" aria-label="Close navigation menu"></button>
+    <div class="mobile-nav__panel" role="dialog" aria-modal="true" aria-label="Site navigation">
+      <div class="mobile-nav__head">
+        <a class="brand brand--mobile" href="index.html" aria-label="John Anderson, home">
+          <span class="brand__wordmark">John<span class="brand__dot" aria-hidden="true">.</span></span>
+          <span class="brand__meta">Full Stack Developer</span>
+        </a>
+        <button class="icon-button mobile-nav__close" type="button" data-nav-close aria-label="Close navigation menu">
+          <i class="ri-close-line" aria-hidden="true"></i>
+        </button>
+      </div>
+      <nav class="mobile-nav__nav" aria-label="Mobile primary">
+        <ul class="mobile-nav__list" id="mobile-nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-nav__footer">
+        <p class="availability"><span class="status-dot" aria-hidden="true"></span> Available for select projects</p>
+        <a class="btn btn--primary btn--block" href="contact.html">Start a project</a>
+        <div class="mobile-nav__socials" data-mobile-socials aria-label="Social links"></div>
+      </div>
+    </div>
+  </div>
+</header>

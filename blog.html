@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="assets/js/theme-init.js"></script>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <!-- SEO:START -->
+  <title>Web Development Notes &amp; Articles | John Anderson</title>
+  <meta name="description" content="Practical articles on CSS architecture, progressive enhancement, accessibility, JSON content models, performance, and design-to-code workflows.">
+  <meta name="keywords" content="web development blog, CSS architecture, accessibility, web performance, progressive enhancement">
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="John Anderson">
+  <meta name="theme-color" content="#f7f9fd" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#070c15" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <link rel="canonical" href="https://johnanderson.dev/blog.html">
+  <meta property="og:title" content="Web Development Notes &amp; Articles | John Anderson">
+  <meta property="og:description" content="Field notes on building clear, fast, and maintainable websites.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://johnanderson.dev/blog.html">
+  <meta property="og:site_name" content="John Anderson">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://johnanderson.dev/assets/images/og-image.png">
+  <meta property="og:image:alt" content="John Anderson web development blog">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Web Development Notes &amp; Articles | John Anderson">
+  <meta name="twitter:description" content="Field notes on building clear, fast, and maintainable websites.">
+  <meta name="twitter:image" content="https://johnanderson.dev/assets/images/og-image.png">
+  <meta name="twitter:image:alt" content="John Anderson web development blog">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://johnanderson.dev/#person","name":"John Anderson","jobTitle":"Full Stack Developer","description":"Full stack developer focused on fast, accessible, and maintainable web products.","url":"https://johnanderson.dev/","email":"john@example.com","address":{"@type":"PostalAddress","addressLocality":"San Francisco","addressRegion":"CA","addressCountry":"US"},"knowsAbout":["Frontend engineering","Backend & APIs","Data & storage","Cloud & delivery","Design & UX","Quality & performance","HTML5","CSS","JavaScript","TypeScript","React","Vue.js","Node.js","Laravel","PostgreSQL","MySQL","MongoDB","Redis","Prisma","Docker","Git","Figma","Storybook","Playwright","Vitest","Vite"]},{"@type":"WebSite","@id":"https://johnanderson.dev/#website","url":"https://johnanderson.dev/","name":"John Anderson Portfolio","description":"Crafting digital experiences with clean code and modern design.","inLanguage":"en","publisher":{"@id":"https://johnanderson.dev/#person"}},{"@type":"CollectionPage","@id":"https://johnanderson.dev/blog.html#webpage","url":"https://johnanderson.dev/blog.html","name":"Web Development Notes & Articles | John Anderson","description":"Practical articles on CSS architecture, progressive enhancement, accessibility, JSON content models, performance, and design-to-code workflows.","inLanguage":"en","isPartOf":{"@id":"https://johnanderson.dev/#website"},"about":{"@id":"https://johnanderson.dev/#person"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://johnanderson.dev/assets/images/og-image.png","width":1200,"height":630},"breadcrumb":{"@id":"https://johnanderson.dev/blog.html#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://johnanderson.dev/blog.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://johnanderson.dev/index.html"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://johnanderson.dev/blog.html"}]}]}</script>
+  <!-- SEO:END -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pacifico&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body id="top" data-page="blog.html" data-nav="blog.html" class="page-blog">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div data-component="header"></div>
+  <div data-component="breadcrumbs"></div>
+
+  <noscript>
+    <div class="noscript-banner"><div class="container"><strong>JavaScript is off.</strong> The article archive and search need JavaScript. Enable JavaScript to browse the sample articles.</div></div>
+  </noscript>
+
+  <main id="main-content">
+    <section class="page-intro" aria-labelledby="blog-heading">
+      <div class="container page-intro__inner">
+        <div class="page-intro__copy" data-reveal>
+          <p class="eyebrow"><span class="eyebrow__line" aria-hidden="true"></span> Notes from the build</p>
+          <h1 id="blog-heading">Practical notes on <span class="text-gradient">making for the web</span>.</h1>
+          <p class="lede">Short, opinionated articles about the details that make websites clearer, faster, and easier to maintain.</p>
+          <div class="page-intro__actions">
+            <a class="btn btn--primary" href="#blog-archive">Browse the archive <i class="ri-arrow-down-line" aria-hidden="true"></i></a>
+            <a class="btn btn--ghost" href="contact.html">Suggest a topic</a>
+          </div>
+          <p class="page-intro__note"><i class="ri-information-line" aria-hidden="true"></i> All articles are sample content written for this portfolio. No client data is included.</p>
+        </div>
+
+        <aside class="page-intro__aside" data-reveal data-delay="1">
+          <div class="aside-panel">
+            <p class="eyebrow">Topics I return to</p>
+            <ul class="chip-list chip-list--large" aria-label="Blog topics">
+              <li class="chip">Accessibility</li>
+              <li class="chip">Performance</li>
+              <li class="chip">CSS architecture</li>
+              <li class="chip">Progressive enhancement</li>
+              <li class="chip">Design systems</li>
+              <li class="chip">Content modeling</li>
+            </ul>
+            <hr>
+            <p class="aside-panel__meta"><i class="ri-rss-line" aria-hidden="true"></i> No RSS feed is configured in this demo.</p>
+            <p class="aside-panel__meta"><i class="ri-mail-line" aria-hidden="true"></i> Prefer a conversation? Use the contact page.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="blog-archive" aria-labelledby="archive-heading">
+      <div class="container">
+        <div class="archive-toolbar archive-toolbar--blog" data-reveal>
+          <div class="filter-bar" id="blog-filters" role="group" aria-label="Filter articles by category" hidden></div>
+          <div class="blog-toolbar__controls">
+            <div class="search-field">
+              <i class="ri-search-line" aria-hidden="true"></i>
+              <label class="sr-only" for="blog-search">Search articles</label>
+              <input id="blog-search" type="search" placeholder="Search articles..." autocomplete="off" spellcheck="false">
+              <button class="search-field__clear" type="button" data-clear-search aria-label="Clear search" hidden><i class="ri-close-line" aria-hidden="true"></i></button>
+            </div>
+            <p class="archive-count" id="blog-count" role="status" aria-live="polite">Loading sample articles...</p>
+          </div>
+        </div>
+
+        <div class="card-grid card-grid--posts" id="blog-grid" aria-busy="true">
+          <div class="skeleton-card skeleton-card--post" role="status" aria-label="Loading article card">
+            <div class="skeleton skeleton--media"></div>
+            <div class="skeleton-card__body">
+              <div class="skeleton skeleton--line skeleton--short"></div>
+              <div class="skeleton skeleton--line"></div>
+              <div class="skeleton skeleton--line skeleton--medium"></div>
+            </div>
+          </div>
+          <div class="skeleton-card skeleton-card--post" role="status" aria-label="Loading article card">
+            <div class="skeleton skeleton--media"></div>
+            <div class="skeleton-card__body">
+              <div class="skeleton skeleton--line skeleton--short"></div>
+              <div class="skeleton skeleton--line"></div>
+              <div class="skeleton skeleton--line skeleton--medium"></div>
+            </div>
+          </div>
+          <div class="skeleton-card skeleton-card--post" role="status" aria-label="Loading article card">
+            <div class="skeleton skeleton--media"></div>
+            <div class="skeleton-card__body">
+              <div class="skeleton skeleton--line skeleton--short"></div>
+              <div class="skeleton skeleton--line"></div>
+              <div class="skeleton skeleton--line skeleton--medium"></div>
+            </div>
+          </div>
+        </div>
+        <div id="blog-empty" hidden></div>
+        <p class="sample-note">Articles are stored in a local JSON file and rendered in the browser for this demo.</p>
+      </div>
+    </section>
+
+    <section class="section section--soft" aria-labelledby="blog-topics-heading">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow"><span class="eyebrow__line" aria-hidden="true"></span> Why write</p>
+            <h2 id="blog-topics-heading">Writing is part of the work.</h2>
+            <p>Explaining a decision is a good test of whether it was a good decision. These notes are a way to keep learning visible.</p>
+          </div>
+          <a class="link-arrow" href="about.html">About the author <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
+        </div>
+        <div class="quote-strip" data-reveal>
+          <i class="ri-double-quotes-l" aria-hidden="true"></i>
+          <p>Good code explains itself. Good writing explains why the code had to exist.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="blog-cta-heading">
+      <div class="container">
+        <div class="cta-panel" data-reveal>
+          <span class="cta-panel__glow" aria-hidden="true"></span>
+          <div class="cta-panel__copy">
+            <p class="eyebrow eyebrow--light"><span class="eyebrow__line" aria-hidden="true"></span> Keep the conversation going</p>
+            <h2 id="blog-cta-heading">Have a question about something you read?</h2>
+            <p>I am happy to compare notes, clarify an approach, or hear where your experience differs.</p>
+          </div>
+          <div class="cta-panel__actions">
+            <a class="btn btn--light" href="contact.html">Ask a question <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a>
+            <a class="btn btn--ghost-light" href="projects.html">See the portfolio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-component="footer"></div>
+  <div data-component="scroll-to-top"></div>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

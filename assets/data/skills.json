@@ -1,0 +1,211 @@
+{
+  "note": "Proficiency levels are self-assessed and reflect the kind of work represented in this demo portfolio. They are not formal certifications.",
+  "groups": [
+    {
+      "title": "Frontend engineering",
+      "icon": "ri-code-s-slash-line",
+      "description": "Semantic, responsive interfaces with a strong emphasis on accessibility and maintainable component structure.",
+      "items": [
+        {
+          "name": "HTML & CSS",
+          "level": 95
+        },
+        {
+          "name": "JavaScript",
+          "level": 95
+        },
+        {
+          "name": "TypeScript",
+          "level": 88
+        },
+        {
+          "name": "React",
+          "level": 90
+        },
+        {
+          "name": "Vue.js",
+          "level": 82
+        },
+        {
+          "name": "Tailwind CSS",
+          "level": 90
+        }
+      ]
+    },
+    {
+      "title": "Backend & APIs",
+      "icon": "ri-server-line",
+      "description": "Product-focused server work: predictable APIs, sensible data boundaries, and code that is easy to operate.",
+      "items": [
+        {
+          "name": "Node.js",
+          "level": 85
+        },
+        {
+          "name": "PHP / Laravel",
+          "level": 80
+        },
+        {
+          "name": "REST APIs",
+          "level": 88
+        },
+        {
+          "name": "GraphQL",
+          "level": 75
+        },
+        {
+          "name": "Authentication",
+          "level": 82
+        }
+      ]
+    },
+    {
+      "title": "Data & storage",
+      "icon": "ri-database-2-line",
+      "description": "Relational modeling, query tuning, and choosing storage that fits the access pattern rather than the trend.",
+      "items": [
+        {
+          "name": "MySQL",
+          "level": 85
+        },
+        {
+          "name": "PostgreSQL",
+          "level": 80
+        },
+        {
+          "name": "MongoDB",
+          "level": 75
+        },
+        {
+          "name": "Redis",
+          "level": 72
+        },
+        {
+          "name": "Prisma",
+          "level": 78
+        }
+      ]
+    },
+    {
+      "title": "Cloud & delivery",
+      "icon": "ri-cloud-line",
+      "description": "Practical deployment, observability, and automation for small product teams without overbuilding infrastructure.",
+      "items": [
+        {
+          "name": "Git & GitHub",
+          "level": 90
+        },
+        {
+          "name": "Docker",
+          "level": 76
+        },
+        {
+          "name": "AWS",
+          "level": 72
+        },
+        {
+          "name": "Google Cloud",
+          "level": 70
+        },
+        {
+          "name": "CI / CD",
+          "level": 78
+        }
+      ]
+    },
+    {
+      "title": "Design & UX",
+      "icon": "ri-layout-4-line",
+      "description": "Interface design grounded in content, interaction states, and the realities of implementation.",
+      "items": [
+        {
+          "name": "UI design",
+          "level": 85
+        },
+        {
+          "name": "Design systems",
+          "level": 82
+        },
+        {
+          "name": "Figma",
+          "level": 86
+        },
+        {
+          "name": "Prototyping",
+          "level": 80
+        },
+        {
+          "name": "Accessibility",
+          "level": 88
+        }
+      ]
+    },
+    {
+      "title": "Quality & performance",
+      "icon": "ri-speed-up-line",
+      "description": "Testing, measurement, and performance work treated as part of the feature rather than a final cleanup pass.",
+      "items": [
+        {
+          "name": "Web performance",
+          "level": 84
+        },
+        {
+          "name": "Technical SEO",
+          "level": 80
+        },
+        {
+          "name": "Jest / Vitest",
+          "level": 80
+        },
+        {
+          "name": "Playwright",
+          "level": 75
+        },
+        {
+          "name": "Lighthouse",
+          "level": 85
+        }
+      ]
+    }
+  ],
+  "toolbelt": [
+    "HTML5",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Vue.js",
+    "Node.js",
+    "Laravel",
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB",
+    "Redis",
+    "Prisma",
+    "Docker",
+    "Git",
+    "Figma",
+    "Storybook",
+    "Playwright",
+    "Vitest",
+    "Vite"
+  ],
+  "principles": [
+    {
+      "title": "Choose boring foundations",
+      "text": "Semantic HTML, a clear data model, and a small dependency surface make everything else easier."
+    },
+    {
+      "title": "Measure before optimizing",
+      "text": "Performance and accessibility work starts with evidence, not a checklist of fashionable techniques."
+    },
+    {
+      "title": "Design the states",
+      "text": "Empty, loading, error, and success states are part of the interface, not an afterthought."
+    },
+    {
+      "title": "Leave a trail",
+      "text": "Good names, short documentation, and honest tests help the next person move faster."
+    }
+  ]
+}

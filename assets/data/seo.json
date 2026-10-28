@@ -1,0 +1,358 @@
+{
+  "index.html": {
+    "title": "John Anderson | Full Stack Developer Portfolio",
+    "description": "John Anderson is a San Francisco-based full stack developer building fast, accessible web products with React, Node.js, Laravel, and thoughtful UI design.",
+    "keywords": [
+      "John Anderson",
+      "full stack developer",
+      "web developer portfolio",
+      "React developer",
+      "San Francisco developer"
+    ],
+    "canonicalPath": "",
+    "robots": "index,follow",
+    "ogTitle": "John Anderson | Full Stack Developer Portfolio",
+    "ogDescription": "Explore the portfolio of John Anderson: full stack development, UI/UX craft, and dependable digital products.",
+    "ogType": "website",
+    "ogImage": "assets/images/og-image.png",
+    "ogImageAlt": "John Anderson, full stack developer",
+    "twitterCard": "summary_large_image",
+    "pageType": "ProfilePage",
+    "breadcrumb": [],
+    "sitemap": true,
+    "changeFrequency": "weekly",
+    "priority": 1
+  },
+  "about.html": {
+    "title": "About John Anderson | Developer, Designer & Problem Solver",
+    "description": "Learn how John Anderson approaches full stack development: clear architecture, accessible interfaces, and maintainable code built for real people.",
+    "keywords": [
+      "about John Anderson",
+      "full stack developer story",
+      "developer values",
+      "web development process"
+    ],
+    "canonicalPath": "about.html",
+    "robots": "index,follow",
+    "ogTitle": "About John Anderson | Developer & Problem Solver",
+    "ogDescription": "A closer look at how John Anderson designs, builds, and maintains thoughtful web products.",
+    "ogType": "website",
+    "ogImage": "assets/images/og-image.png",
+    "ogImageAlt": "John Anderson, full stack developer",
+    "twitterCard": "summary_large_image",
+    "pageType": "AboutPage",
+    "breadcrumb": [
+      {
+        "label": "About"
+      }
+    ],
+    "sitemap": true,
+    "changeFrequency": "monthly",
+    "priority": 0.8
+  },
+  "services.html": {
+    "title": "Web Development Services | John Anderson",
+    "description": "Full stack development, design systems, API architecture, performance optimization, accessibility, and ongoing support for ambitious web projects.",
+    "keywords": [
+      "web development services",
+      "full stack developer for hire",
+      "design systems",
+      "web performance",
+      "accessibility audit"
+    ],
+    "canonicalPath": "services.html",
+    "robots": "index,follow",
+    "ogTitle": "Web Development Services | John Anderson",
+    "ogDescription": "Practical development services for teams that care about quality, speed, and accessible experiences.",
+    "ogType": "website",
+    "ogImage": "assets/images/og-image.png",
+    "ogImageAlt": "John Anderson, full stack developer",
+    "twitterCard": "summary_large_image",
+    "pageType": "CollectionPage",
+    "breadcrumb": [
+      {
+        "label": "Services"
+      }
+    ],
+    "sitemap": true,
+    "changeFrequency": "monthly",
+    "priority": 0.9
+  },
+  "projects.html": {
+    "title": "Portfolio & Case Studies | John Anderson",
+    "description": "Explore sample case studies in web apps, mobile experiences, and UI/UX, including analytics, e-commerce, community, and design-system projects.",
+    "keywords": [
+      "web developer portfolio",
+      "case studies",
+      "React projects",
+      "UI UX portfolio",
+      "sample projects"
+    ],
+    "canonicalPath": "projects.html",
+    "robots": "index,follow",
+    "ogTitle": "Portfolio & Case Studies | John Anderson",
+    "ogDescription": "A selection of sample product work spanning web applications, mobile experiences, and design systems.",
+    "ogType": "website",
+    "ogImage": "assets/images/og-image.png",
+    "ogImageAlt": "John Anderson portfolio preview",
+    "twitterCard": "summary_large_image",
+    "pageType": "CollectionPage",
+    "breadcrumb": [
+      {
+        "label": "Portfolio"
+      }
+    ],
+    "sitemap": true,
+    "changeFrequency": "weekly",
+    "priority": 0.9
+  },
+  "project-details.html": {
+    "title": "Project Case Study | John Anderson",
+    "description": "A detailed look at a sample full stack project: the brief, design decisions, technical approach, and implementation details.",
+    "keywords": [
+      "project case study",
+      "full stack project",
+      "web app case study",
+      "portfolio detail"
+    ],
+    "canonicalPath": null,
+    "robots": "index,follow",
+    "ogTitle": "Project Case Study | John Anderson",
+    "ogDescription": "How a sample product was shaped from brief to implementation.",
+    "ogType": "article",
+    "ogImage": "assets/images/og-image.png",
+    "ogImageAlt": "John Anderson project case study",
+    "twitterCard": "summary_large_image",
+    "pageType": "WebPage",
+    "breadcrumb": [
+      {
+        "label": "Portfolio",
+        "href": "projects.html"
+      },
+      {
+        "label": "Project Details"
+      }
+    ],
+    "sitemap": false,
+    "runtimeSchema": true
+  },
+  "skills.html": {
+    "title": "Skills & Expertise | John Anderson",
+    "description": "A practical overview of John Anderson's skills across frontend, backend, databases, cloud, and product design, including the tools used day to day.",
+    "keywords": [
+      "full stack skills",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Laravel",
+      "web design",
+      "developer toolbox"
+    ],
+    "canonicalPath": "skills.html",
+    "robots": "index,follow",
+    "ogTitle": "Skills & Expertise | John Anderson",
+    "ogDescription": "Frontend, backend, data, cloud, and design skills built through hands-on product work.",
+    "ogType": "website",
+    "ogImage": "assets/images/og-image.png",
+    "ogImageAlt": "John Anderson skills and expertise",
+    "twitterCard": "summary_large_image",
+    "pageType": "WebPage",
+    "breadcrumb": [
+      {
+        "label": "About",
+        "href": "about.html"
+      },
+      {
+        "label": "Skills"
+      }
+    ],
+    "sitemap": true,
+    "changeFrequency": "monthly",
+    "priority": 0.7
+  },
+  "experience.html": {
+    "title": "Experience & Education | John Anderson",
+    "description": "An overview of John Anderson's illustrative professional journey, core responsibilities, education, and continuous learning as a full stack developer.",
+    "keywords": [
+      "developer experience",
+      "full stack developer resume",
+      "career timeline",
+      "web development education"
+    ],
+    "canonicalPath": "experience.html",
+    "robots": "index,follow",
+    "ogTitle": "Experience & Education | John Anderson",
+    "ogDescription": "A timeline of sample roles, responsibilities, education, and ongoing learning.",
+    "ogType": "website",
+    "ogImage": "assets/images/og-image.png",
+    "ogImageAlt": "John Anderson experience and education",
+    "twitterCard": "summary_large_image",
+    "pageType": "WebPage",
+    "breadcrumb": [
+      {
+        "label": "About",
+        "href": "about.html"
+      },
+      {
+        "label": "Experience"
+      }
+    ],
+    "sitemap": true,
+    "changeFrequency": "monthly",
+    "priority": 0.7
+  },
+  "testimonials.html": {
+    "title": "Client Testimonials | John Anderson",
+    "description": "Sample client feedback that demonstrates how John Anderson collaborates, communicates, and delivers thoughtful full stack web work.",
+    "keywords": [
+      "developer testimonials",
+      "client feedback",
+      "freelance developer",
+      "collaboration"
+    ],
+    "canonicalPath": "testimonials.html",
+    "robots": "index,follow",
+    "ogTitle": "Client Testimonials | John Anderson",
+    "ogDescription": "Sample feedback from the people John Anderson has collaborated with.",
+    "ogType": "website",
+    "ogImage": "assets/images/og-image.png",
+    "ogImageAlt": "Sample client testimonials for John Anderson",
+    "twitterCard": "summary_large_image",
+    "pageType": "WebPage",
+    "breadcrumb": [
+      {
+        "label": "About",
+        "href": "about.html"
+      },
+      {
+        "label": "Testimonials"
+      }
+    ],
+    "sitemap": true,
+    "changeFrequency": "monthly",
+    "priority": 0.6
+  },
+  "blog.html": {
+    "title": "Web Development Notes & Articles | John Anderson",
+    "description": "Practical articles on CSS architecture, progressive enhancement, accessibility, JSON content models, performance, and design-to-code workflows.",
+    "keywords": [
+      "web development blog",
+      "CSS architecture",
+      "accessibility",
+      "web performance",
+      "progressive enhancement"
+    ],
+    "canonicalPath": "blog.html",
+    "robots": "index,follow",
+    "ogTitle": "Web Development Notes & Articles | John Anderson",
+    "ogDescription": "Field notes on building clear, fast, and maintainable websites.",
+    "ogType": "website",
+    "ogImage": "assets/images/og-image.png",
+    "ogImageAlt": "John Anderson web development blog",
+    "twitterCard": "summary_large_image",
+    "pageType": "CollectionPage",
+    "breadcrumb": [
+      {
+        "label": "Blog"
+      }
+    ],
+    "sitemap": true,
+    "changeFrequency": "weekly",
+    "priority": 0.8
+  },
+  "blog-details.html": {
+    "title": "Article | John Anderson",
+    "description": "Read a sample article on modern web development, written by full stack developer John Anderson.",
+    "keywords": [
+      "web development article",
+      "frontend development",
+      "accessibility",
+      "performance"
+    ],
+    "canonicalPath": null,
+    "robots": "index,follow",
+    "ogTitle": "Article | John Anderson",
+    "ogDescription": "Practical notes on building for the web.",
+    "ogType": "article",
+    "ogImage": "assets/images/og-image.png",
+    "ogImageAlt": "John Anderson article",
+    "twitterCard": "summary_large_image",
+    "pageType": "WebPage",
+    "breadcrumb": [
+      {
+        "label": "Blog",
+        "href": "blog.html"
+      },
+      {
+        "label": "Article"
+      }
+    ],
+    "sitemap": false,
+    "runtimeSchema": true
+  },
+  "contact.html": {
+    "title": "Contact John Anderson | Let's Build Something Good",
+    "description": "Get in touch with John Anderson about web development projects, design systems, audits, or collaboration. This demo uses an honest email-draft fallback.",
+    "keywords": [
+      "contact John Anderson",
+      "hire full stack developer",
+      "freelance web developer",
+      "project inquiry"
+    ],
+    "canonicalPath": "contact.html",
+    "robots": "index,follow",
+    "ogTitle": "Contact John Anderson | Let's Build Something Good",
+    "ogDescription": "Have a project in mind? Start a conversation about scope, goals, and next steps.",
+    "ogType": "website",
+    "ogImage": "assets/images/og-image.png",
+    "ogImageAlt": "Contact John Anderson",
+    "twitterCard": "summary_large_image",
+    "pageType": "ContactPage",
+    "breadcrumb": [
+      {
+        "label": "Contact"
+      }
+    ],
+    "sitemap": true,
+    "changeFrequency": "yearly",
+    "priority": 0.8
+  },
+  "404.html": {
+    "title": "Page Not Found | John Anderson",
+    "description": "The page you are looking for does not exist. Explore the portfolio, projects, and contact pages instead.",
+    "keywords": [
+      "404",
+      "page not found"
+    ],
+    "canonicalPath": null,
+    "robots": "noindex,follow",
+    "ogTitle": "Page Not Found | John Anderson",
+    "ogDescription": "That page seems to have moved. Explore the portfolio instead.",
+    "ogType": "website",
+    "ogImage": "assets/images/og-image.png",
+    "ogImageAlt": "John Anderson portfolio",
+    "twitterCard": "summary_large_image",
+    "pageType": "WebPage",
+    "breadcrumb": [],
+    "sitemap": false
+  },
+  "resume.html": {
+    "title": "Resume | John Anderson",
+    "description": "A printable resume for full stack developer John Anderson. This is demonstration content.",
+    "keywords": [
+      "John Anderson resume",
+      "full stack developer resume"
+    ],
+    "canonicalPath": "resume.html",
+    "robots": "noindex,follow",
+    "ogTitle": "Resume | John Anderson",
+    "ogDescription": "Printable sample resume for full stack developer John Anderson.",
+    "ogType": "website",
+    "ogImage": "assets/images/og-image.png",
+    "ogImageAlt": "John Anderson resume",
+    "twitterCard": "summary",
+    "pageType": "WebPage",
+    "breadcrumb": [],
+    "sitemap": false
+  }
+}

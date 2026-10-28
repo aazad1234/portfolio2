@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Nova Design System artwork</title>
+  <desc id="desc">A design system specimen with color swatches, type samples, buttons, and spacing tokens.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#faf9f7"/>
+      <stop offset="1" stop-color="#eef2ff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#d946ef"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="1090" cy="90" r="200" fill="#c7d2fe" opacity=".45"/>
+  <circle cx="70" cy="720" r="170" fill="#fde68a" opacity=".25"/>
+  <g>
+    <text x="86" y="96" font-family="Inter, Segoe UI, sans-serif" font-size="12" letter-spacing="3" fill="#64748b">NOVA / FOUNDATIONS</text>
+    <text x="86" y="152" font-family="Inter, Segoe UI, sans-serif" font-size="46" font-weight="700" fill="#0f172a">Small system.</text>
+    <text x="86" y="200" font-family="Inter, Segoe UI, sans-serif" font-size="46" font-weight="700" fill="#4f46e5">Clear decisions.</text>
+    <rect x="86" y="234" width="120" height="34" rx="17" fill="#0f172a"/>
+    <text x="146" y="256" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#ffffff">v 2.4</text>
+    <text x="220" y="256" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#64748b">Tokens, components, and usage notes</text>
+  </g>
+  <g>
+    <rect x="86" y="312" width="482" height="398" rx="26" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="116" y="350" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="600" letter-spacing="1.5" fill="#94a3b8">COLOR ROLES</text>
+    <g>
+      <rect x="116" y="372" width="102" height="92" rx="18" fill="url(#blue)"/>
+      <text x="132" y="440" font-family="Inter, Segoe UI, sans-serif" font-size="10" fill="#dbeafe">Primary</text>
+      <rect x="232" y="372" width="102" height="92" rx="18" fill="url(#violet)"/>
+      <text x="248" y="440" font-family="Inter, Segoe UI, sans-serif" font-size="10" fill="#f5f3ff">Accent</text>
+      <rect x="348" y="372" width="102" height="92" rx="18" fill="url(#teal)"/>
+      <text x="364" y="440" font-family="Inter, Segoe UI, sans-serif" font-size="10" fill="#ccfbf1">Success</text>
+      <rect x="464" y="372" width="70" height="92" rx="18" fill="url(#amber)"/>
+    </g>
+    <text x="116" y="506" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="600" letter-spacing="1.5" fill="#94a3b8">TYPE SCALE</text>
+    <text x="116" y="570" font-family="Georgia, serif" font-size="58" fill="#0f172a">Aa</text>
+    <g font-family="Inter, Segoe UI, sans-serif" fill="#0f172a">
+      <text x="218" y="536" font-size="22" font-weight="700">Display / 40</text>
+      <text x="218" y="564" font-size="16" font-weight="600">Heading / 24</text>
+      <text x="218" y="588" font-size="12">Body / 16</text>
+      <text x="218" y="610" font-size="10" fill="#64748b">Caption / 12</text>
+    </g>
+    <text x="116" y="660" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="600" letter-spacing="1.5" fill="#94a3b8">SPACING</text>
+    <g fill="#c7d2fe">
+      <rect x="116" y="674" width="8" height="8" rx="2"/>
+      <rect x="136" y="672" width="12" height="12" rx="2"/>
+      <rect x="160" y="670" width="16" height="16" rx="2"/>
+      <rect x="188" y="668" width="20" height="20" rx="2"/>
+      <rect x="220" y="666" width="24" height="24" rx="2"/>
+      <rect x="256" y="664" width="28" height="28" rx="2"/>
+      <rect x="296" y="662" width="32" height="32" rx="2"/>
+    </g>
+  </g>
+  <g>
+    <rect x="596" y="312" width="516" height="186" rx="26" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="626" y="350" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="600" letter-spacing="1.5" fill="#94a3b8">COMPONENTS</text>
+    <rect x="626" y="374" width="138" height="42" rx="10" fill="url(#blue)"/>
+    <text x="695" y="400" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#ffffff">Primary action</text>
+    <rect x="778" y="374" width="128" height="42" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="842" y="400" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Secondary</text>
+    <rect x="920" y="374" width="162" height="42" rx="10" fill="#eef2ff"/>
+    <circle cx="946" cy="395" r="7" fill="#4f46e5"/>
+    <text x="962" y="400" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#3730a3">In progress</text>
+    <rect x="626" y="436" width="210" height="38" rx="9" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="642" y="459" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#94a3b8">Email address</text>
+    <rect x="852" y="436" width="116" height="38" rx="9" fill="#fee2e2"/>
+    <text x="910" y="459" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#b91c1c">Error state</text>
+    <rect x="984" y="436" width="98" height="38" rx="9" fill="#dcfce7"/>
+    <text x="1033" y="459" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#15803d">Success</text>
+  </g>
+  <g>
+    <rect x="596" y="522" width="248" height="188" rx="26" fill="#0f172a"/>
+    <text x="626" y="560" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="600" letter-spacing="1.5" fill="#64748b">DARK SURFACE</text>
+    <rect x="626" y="580" width="188" height="42" rx="12" fill="#1e293b"/>
+    <text x="642" y="606" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#94a3b8">surface-raised</text>
+    <rect x="626" y="634" width="128" height="42" rx="12" fill="url(#blue)"/>
+    <text x="690" y="660" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#ffffff">Button</text>
+    <circle cx="792" cy="655" r="21" fill="#1e293b"/>
+    <circle cx="792" cy="655" r="7" fill="#34d399"/>
+  </g>
+  <g>
+    <rect x="864" y="522" width="248" height="188" rx="26" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="894" y="560" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="600" letter-spacing="1.5" fill="#94a3b8">RULES</text>
+    <g font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#334155">
+      <circle cx="900" cy="590" r="4" fill="#4f46e5"/>
+      <text x="916" y="594">Use role-based tokens</text>
+      <circle cx="900" cy="622" r="4" fill="#4f46e5"/>
+      <text x="916" y="626">Design every state</text>
+      <circle cx="900" cy="654" r="4" fill="#4f46e5"/>
+      <text x="916" y="658">Document the trade-off</text>
+      <circle cx="900" cy="686" r="4" fill="#4f46e5"/>
+      <text x="916" y="690">Review in the browser</text>
+    </g>
+  </g>
+</svg>

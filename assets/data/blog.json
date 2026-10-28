@@ -1,0 +1,310 @@
+[
+  {
+    "slug": "progressive-enhancement-2026",
+    "title": "Progressive enhancement in 2026: ship HTML first",
+    "excerpt": "A practical argument for making the document useful before the framework arrives, and for treating JavaScript as an enhancement rather than a prerequisite.",
+    "category": "Performance",
+    "tags": ["HTML", "Performance", "Progressive enhancement"],
+    "date": "2026-10-14",
+    "readingTime": "5 min read",
+    "icon": "ri-html5-line",
+    "accent": "#2563eb",
+    "featured": true,
+    "content": [
+      {
+        "heading": "The fastest interface is the one that already arrived",
+        "paragraphs": [
+          "Progressive enhancement is sometimes described as a nostalgic constraint. In practice it is a performance strategy. If the primary content and navigation are present in the initial HTML response, the browser can render a useful page without waiting for a framework bundle, a data request, or a client-side route.",
+          "That does not mean avoiding interactivity. It means deciding which parts of the experience are essential and letting those parts arrive first. On a content-led site, that is usually the document itself. On a product screen, it might be the record the user came to see."
+        ]
+      },
+      {
+        "heading": "Enhancement should add, not repair",
+        "paragraphs": [
+          "A form that only submits through JavaScript is a single point of failure. A navigation menu that cannot be opened without a custom event handler is not a menu; it is a list waiting for permission. HTML already knows how to submit forms and follow links.",
+          "Use JavaScript for the parts that genuinely benefit: instant filtering, live previews, optimistic updates, and richer feedback. Keep a server-rendered path for the core action. Where a server is not available, make the limitation visible instead of pretending the action succeeded."
+        ]
+      },
+      {
+        "heading": "A small checklist that keeps you honest",
+        "paragraphs": [
+          "Start with semantic landmarks and a clear heading outline. Render primary content on the server or at build time. Keep navigation in real anchors. Test a critical page with JavaScript disabled and note what still works.",
+          "The point is not a perfect no-JavaScript experience. The point is understanding the dependency graph of your own interface before a slow phone or a failed request explains it to you."
+        ],
+        "list": [
+          "Primary content exists in the initial HTML response.",
+          "Links and forms work without client-side routing.",
+          "Enhancements fail visibly and preserve entered data.",
+          "Loading states are designed, not accidental blank screens.",
+          "Performance is measured on realistic devices and networks."
+        ]
+      },
+      {
+        "heading": "Resilience is a user experience",
+        "paragraphs": [
+          "Every network is occasionally slow and every third-party script eventually fails. A site that degrades into a blank page turns a brief interruption into a lost visitor. A site that degrades into a readable document keeps the relationship intact.",
+          "Shipping HTML first is not a purist's rule. It is a simple way to make the baseline experience fast, discoverable, and durable enough to support everything built on top of it."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "maintainable-css-architecture",
+    "title": "A maintainable CSS architecture for small multi-page sites",
+    "excerpt": "How to keep a growing multi-page stylesheet understandable with a small token layer, role-based components, and a disciplined cascade.",
+    "category": "Architecture",
+    "tags": ["CSS", "Architecture", "Design systems"],
+    "date": "2026-09-23",
+    "readingTime": "6 min read",
+    "icon": "ri-layout-2-line",
+    "accent": "#4f46e5",
+    "featured": false,
+    "content": [
+      {
+        "heading": "Start with a token layer",
+        "paragraphs": [
+          "The first layer is not a component library. It is a small set of values that describe the visual system: color roles, type sizes, spacing, radii, shadows, and motion durations. Semantic names such as surface, text-muted, and border keep the rest of the stylesheet from depending on a specific shade.",
+          "A token layer also makes theming possible without duplicating selectors. Light and dark modes become alternate values for the same roles rather than a second stylesheet that has to be kept in sync."
+        ]
+      },
+      {
+        "heading": "Separate layout from appearance",
+        "paragraphs": [
+          "Layout primitives answer questions like how wide a container is, how a section breathes, and how a grid collapses. Components answer what a card or button looks like. Mixing those responsibilities is how a stylesheet becomes a pile of one-off overrides.",
+          "A handful of layout classes, used consistently, do more for a multi-page site than a long list of utility combinations copied between pages."
+        ]
+      },
+      {
+        "heading": "Name components by role",
+        "paragraphs": [
+          "The class project-card describes a stable idea. The class blue-box-left describes one visual moment. Role-based names survive redesigns because the markup continues to express the same content relationship.",
+          "Follow a light convention and keep it consistent. A small site does not need strict BEM everywhere, but it does benefit from predictable prefixes and a documented state naming pattern such as is-active or is-open."
+        ]
+      },
+      {
+        "heading": "Keep the cascade boring",
+        "paragraphs": [
+          "Every selector should have an obvious reason to win. Prefer component-scoped classes, keep nesting shallow, and avoid styling by element inside unrelated sections. When an override is necessary, make it explicit rather than relying on source order by accident.",
+          "Breakpoints belong in one place. If every component invents its own media queries, the site develops invisible layout behavior that no one can reason about. A consistent set of breakpoints makes responsive work predictable."
+        ],
+        "list": [
+          "Tokens describe roles, not raw hex values in components.",
+          "Layout classes and component classes stay separate.",
+          "States use a consistent prefix and are paired with ARIA where needed.",
+          "Selectors stay shallow and appear in a predictable order.",
+          "Responsive rules live in a dedicated layer."
+        ]
+      },
+      {
+        "heading": "Review the stylesheet like an interface",
+        "paragraphs": [
+          "Once a month, search for duplicate values, unused classes, and selectors that only exist to defeat another selector. That cleanup is not busywork. It is the difference between a site that can absorb the next feature and one that resists it.",
+          "Maintainable CSS is less about clever structure than about making the next change feel uneventful."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "accessible-navigation-menus",
+    "title": "Accessible navigation menus: the details that matter",
+    "excerpt": "Dropdowns, focus order, escape behavior, and mobile drawers: the small decisions that determine whether a menu actually works for keyboard users.",
+    "category": "Accessibility",
+    "tags": ["Accessibility", "Navigation", "Keyboard"],
+    "date": "2026-08-19",
+    "readingTime": "5 min read",
+    "icon": "ri-accessible-line",
+    "accent": "#0d9488",
+    "featured": false,
+    "content": [
+      {
+        "heading": "Choose a clear disclosure pattern",
+        "paragraphs": [
+          "A navigation menu with subpages is a disclosure, not an application menu bar. The parent link should remain a real link, and a separate control should expand the submenu. Users can then choose to navigate to the overview page or explore its children.",
+          "That separation matters on touch screens too. Tapping the parent link should not open a submenu that the user never asked for."
+        ]
+      },
+      {
+        "heading": "Make keyboard behavior predictable",
+        "paragraphs": [
+          "Users expect Tab to move through links in visual order. Escape should close an open menu and return focus to the control that opened it. A submenu opened with the keyboard should place focus somewhere sensible, and a closed submenu should not leave invisible links in the tab order.",
+          "If you add arrow-key behavior, implement the whole expected pattern. A partial imitation is often worse than simply relying on Tab."
+        ]
+      },
+      {
+        "heading": "Treat the mobile drawer as navigation",
+        "paragraphs": [
+          "A full-screen mobile menu needs an accessible name, a visible close control, and a clear relationship to the toggle that opened it. Use aria-expanded and aria-controls on the trigger, move focus into the drawer, and keep background content from taking focus.",
+          "Locking page scroll is a visual convenience, not a substitute for focus management. When the drawer closes, return focus to the trigger and remove any scroll lock."
+        ]
+      },
+      {
+        "heading": "Test with the browser you actually ship",
+        "paragraphs": [
+          "Tab through the header. Open and close each menu. Zoom to 200 percent. Try a screen reader and a touch device. Check that an open menu does not cover the only way to close it.",
+          "These checks take minutes and catch most of the failures that automated tools miss."
+        ],
+        "list": [
+          "The toggle has aria-expanded and aria-controls.",
+          "Escape closes the menu and restores focus.",
+          "Closed menus are removed from the tab order.",
+          "Focus is visible against the menu background.",
+          "Touch targets are at least 44 by 44 CSS pixels."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "json-content-models",
+    "title": "Designing JSON content models that stay out of the way",
+    "excerpt": "A small content model, good identifiers, and honest error states go further than an elaborate abstraction layer.",
+    "category": "Content",
+    "tags": ["JSON", "JavaScript", "Content strategy"],
+    "date": "2026-07-08",
+    "readingTime": "4 min read",
+    "icon": "ri-braces-line",
+    "accent": "#7c3aed",
+    "featured": false,
+    "content": [
+      {
+        "heading": "Model the page, not the database",
+        "paragraphs": [
+          "A content file should describe what a page needs to say. If a project card needs a title, summary, category, and image, those fields belong together. Exposing internal record structure forces every renderer to reconstruct meaning.",
+          "The useful test is simple: can someone update the content without opening the rendering code?"
+        ]
+      },
+      {
+        "heading": "Keep presentation out",
+        "paragraphs": [
+          "Store a category label and let the interface decide how it looks. If a color belongs to a category, store an intent or token name rather than a raw style block. This keeps content portable across layouts and themes.",
+          "Short formatted text is fine. Embedded markup, layout classes, and animation instructions are not."
+        ]
+      },
+      {
+        "heading": "Use stable identifiers",
+        "paragraphs": [
+          "A slug is part of the public surface of the site. Once shared or indexed, it should remain stable even if the title changes. Give every project and article a unique, lowercase identifier and validate it before publishing.",
+          "In a small static site, a query parameter can map a single detail page to the correct record. Add a not-found state and a helpful path back so a bad link is not a dead end."
+        ]
+      },
+      {
+        "heading": "Fail visibly and keep the baseline",
+        "paragraphs": [
+          "Fetching JSON is a network request. It can fail. A card section that silently becomes empty looks like a design bug. A short message with a retry and a link to the full listing is more respectful of the visitor and easier to diagnose.",
+          "For important metadata and page content, generate static HTML when possible. Use JSON for reuse and presentation, not as a requirement for the page to exist."
+        ],
+        "list": [
+          "Fields mirror what the page needs to communicate.",
+          "Slugs are unique, stable, and validated.",
+          "Missing data has a designed state.",
+          "Presentation values live in CSS or tokens.",
+          "Metadata is rendered at build time where possible."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "core-web-vitals-that-matter",
+    "title": "Core Web Vitals: the fixes that actually move the needle",
+    "excerpt": "A field-note approach to LCP, CLS, and INP that starts with measurement and ends with changes users can feel.",
+    "category": "SEO",
+    "tags": ["Performance", "Core Web Vitals", "SEO"],
+    "date": "2026-05-27",
+    "readingTime": "6 min read",
+    "icon": "ri-speed-up-line",
+    "accent": "#ea580c",
+    "featured": false,
+    "content": [
+      {
+        "heading": "Measure before you change anything",
+        "paragraphs": [
+          "Lab scores are useful for debugging, but they are not the goal. Start with field data where available, then reproduce the slowest realistic conditions: a mid-range phone, a warm cache, and a network that is not a data center.",
+          "Write down the current numbers. Without a baseline, improvements become a debate about how the page feels."
+        ]
+      },
+      {
+        "heading": "LCP is usually a content decision",
+        "paragraphs": [
+          "The largest contentful paint is often a hero image or a large heading delayed by layout, fonts, or client rendering. Serving the image at the right size, prioritizing it, and avoiding a client-only render usually matters more than micro-optimizing JavaScript.",
+          "For multi-page sites, static HTML is a performance feature. The browser receives the document immediately and can begin discovering assets while it parses."
+        ]
+      },
+      {
+        "heading": "CLS is a layout contract",
+        "paragraphs": [
+          "Reserve space for images, embeds, and dynamic banners. Set explicit dimensions or aspect ratios. Load fonts with a strategy that avoids a late swap of entirely different metrics. If a component changes height after load, the layout was not finished when it was shipped.",
+          "Advertisements, cookie bars, and notification banners are frequent offenders because they arrive after the page. Treat their space as part of the layout, not an exception."
+        ]
+      },
+      {
+        "heading": "INP is interaction design",
+        "paragraphs": [
+          "Interaction to Next Paint is not only a JavaScript benchmark. A long task triggered by a click feels the same as a slow handler. Break up expensive work, avoid unnecessary re-renders, and give immediate visual feedback when an action begins.",
+          "Sometimes the best fix is structural: show less on the initial screen, defer an expensive chart, or move filtering to the server."
+        ],
+        "list": [
+          "Record a field-data baseline and a realistic lab setup.",
+          "Prioritize the actual LCP element and serve an appropriately sized asset.",
+          "Reserve layout space before content arrives.",
+          "Keep event handlers small and show immediate feedback.",
+          "Re-measure after each change and keep the regression check."
+        ]
+      },
+      {
+        "heading": "Report the result honestly",
+        "paragraphs": [
+          "A performance report should include the device, network, page, and measurement method. A single perfect Lighthouse score is not evidence that every user has a fast experience. Repeated field measurements are.",
+          "The useful outcome is not a badge. It is a page that loads and responds well for the people who use it."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "figma-to-production",
+    "title": "From Figma to production without design drift",
+    "excerpt": "A practical workflow for keeping design intent intact as a page moves from mockup to component to shipped interface.",
+    "category": "Design",
+    "tags": ["Design systems", "Figma", "Workflow"],
+    "date": "2026-03-12",
+    "readingTime": "5 min read",
+    "icon": "ri-pen-nib-line",
+    "accent": "#db2777",
+    "featured": false,
+    "content": [
+      {
+        "heading": "Agree on the source of truth",
+        "paragraphs": [
+          "Design drift often starts before implementation, when the file contains several near-identical versions of the same screen. Decide which frame is authoritative, remove abandoned explorations, and label component states clearly.",
+          "The goal is not a pristine file for its own sake. It is a shared reference that does not require a meeting to interpret."
+        ]
+      },
+      {
+        "heading": "Name the intent, not the pixels",
+        "paragraphs": [
+          "A spacing token called 16 is a value. A token called stack-gap-sm describes a relationship. Intent-based names make it possible for implementation to adapt without drifting from the design language.",
+          "The same applies to color. Surface, surface-raised, and text-muted are more useful than gray-50, gray-100, and gray-500 once themes enter the picture."
+        ]
+      },
+      {
+        "heading": "Prototype the hard states",
+        "paragraphs": [
+          "Happy paths are easy to match. Drift appears in long labels, empty lists, validation errors, loading states, and narrow screens. Review those before handoff, not after the first implementation review.",
+          "If a design has no answer for an empty or error state, the engineer will invent one under deadline pressure. That invention is where inconsistency enters."
+        ]
+      },
+      {
+        "heading": "Build a short review loop",
+        "paragraphs": [
+          "Review the first implementation in the browser at the same viewport and zoom as the design. Compare structure, spacing, type, and interaction states. Log differences that matter, and update the design token or component when the design itself needs to evolve.",
+          "Keep the loop short. A five-minute review during implementation prevents an expensive cleanup at the end."
+        ],
+        "list": [
+          "One authoritative frame per screen and breakpoint.",
+          "Tokens use semantic names shared by design and code.",
+          "Long content, empty states, errors, and loading are designed.",
+          "The browser is reviewed at real sizes, not only in the design tool.",
+          "Every deviation resolves into the system, not a one-off override."
+        ]
+      }
+    ]
+  }
+]

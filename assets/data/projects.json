@@ -1,0 +1,284 @@
+[
+  {
+    "slug": "analytics-dashboard",
+    "title": "Analytics Dashboard",
+    "category": "Web Apps",
+    "year": "2026",
+    "role": "Product designer & full-stack developer",
+    "timeline": "10-week self-directed concept build",
+    "summary": "A calm analytics workspace that turns noisy operational data into a clear weekly story.",
+    "intro": "A sample analytics product designed for small teams who need answers without a data analyst on call. The focus is on fast scanning, readable charts, and a hierarchy that makes the next question obvious.",
+    "overview": [
+      "The dashboard began with a simple observation: most analytics tools are optimized for exploration, while most teams need a reliable weekly view. I designed a landing view around three recurring questions: what changed, why it changed, and what needs attention next.",
+      "The interface combines a compact KPI row, a time-series chart with annotations, and a set of drill-down panels. Every chart shares one date range and one filtering model so users can compare numbers without second-guessing the context."
+    ],
+    "image": "assets/images/project-analytics.svg",
+    "imageAlt": "Abstract dark analytics dashboard illustration with line charts, bars, and a donut chart",
+    "tech": ["React", "TypeScript", "D3.js", "Firebase", "Vitest"],
+    "features": [
+      {
+        "title": "One shared time range",
+        "text": "A single control drives every panel, with visible date context and a quick reset for comparisons."
+      },
+      {
+        "title": "Charts that explain themselves",
+        "text": "Inline annotations mark releases, campaigns, and unusual events so a spike has a story attached."
+      },
+      {
+        "title": "A useful empty state",
+        "text": "New workspaces get sample data, a short setup checklist, and clear next actions instead of a blank grid."
+      }
+    ],
+    "approach": [
+      {
+        "title": "Model the questions first",
+        "text": "I mapped the weekly review conversation before drawing screens. The final layout mirrors the order in which a team asks and answers questions."
+      },
+      {
+        "title": "Design for daylight and midnight",
+        "text": "Charts were tested in light and dark themes with color-blind simulations. Semantic colors and direct labels reduce reliance on hue alone."
+      },
+      {
+        "title": "Keep the chart layer small",
+        "text": "A thin wrapper around D3 handles scales and axes while React owns state and rendering. The result is easier to test and less coupled to a charting library."
+      }
+    ],
+    "demo": true,
+    "featured": true
+  },
+  {
+    "slug": "northline-shop",
+    "title": "Northline Shop",
+    "category": "Mobile Apps",
+    "year": "2025",
+    "role": "Mobile developer & interaction designer",
+    "timeline": "8-week concept sprint",
+    "summary": "A focused mobile storefront built around quick decisions, honest product content, and a checkout that stays out of the way.",
+    "intro": "A sample mobile commerce experience for a small independent outdoor brand. The product is intentionally narrow: fewer choices, better photography, and a checkout that respects the customer's time.",
+    "overview": [
+      "Northline explores how a small catalogue can feel premium without hiding information. Product pages lead with fit, materials, and care details, while the cart stays available but never interrupts browsing.",
+      "The checkout is a three-step flow with saved details, clear delivery expectations, and a summary that remains visible. Error recovery is inline, specific, and never destroys entered data."
+    ],
+    "image": "assets/images/project-commerce.svg",
+    "imageAlt": "Abstract mobile shopping interface illustration with a phone, product cards, and a checkout button",
+    "tech": ["React Native", "Redux Toolkit", "Node.js", "Stripe test mode", "Detox"],
+    "features": [
+      {
+        "title": "A three-step checkout",
+        "text": "Contact, delivery, and payment are separated into short, understandable steps with persistent order context."
+      },
+      {
+        "title": "Product details up front",
+        "text": "Fit notes, materials, and shipping expectations live beside the buying controls rather than in a collapsed accordion."
+      },
+      {
+        "title": "Resilient offline browsing",
+        "text": "Previously viewed products and cart contents remain available when the connection drops, with a clear sync state."
+      }
+    ],
+    "approach": [
+      {
+        "title": "Prototype the thumb zone",
+        "text": "Key actions were tested one-handed on small screens before visual polish. Primary controls stay within easy reach."
+      },
+      {
+        "title": "Treat slow networks as normal",
+        "text": "Skeleton states, optimistic cart updates, and retryable requests make the experience feel stable on a weak connection."
+      },
+      {
+        "title": "Keep motion meaningful",
+        "text": "Transitions explain hierarchy and state changes. Nothing bounces for decoration, and reduced-motion preferences are respected."
+      }
+    ],
+    "demo": true,
+    "featured": true
+  },
+  {
+    "slug": "common-ground",
+    "title": "Common Ground",
+    "category": "Web Apps",
+    "year": "2025",
+    "role": "Full-stack developer",
+    "timeline": "12-week concept build",
+    "summary": "A community platform that makes small-group conversation feel deliberate instead of endless.",
+    "intro": "A sample social product for hobby communities. Instead of chasing infinite feeds, Common Ground organizes discussion around shared projects, weekly prompts, and small groups.",
+    "overview": [
+      "The product combines a project gallery, threaded discussions, and lightweight real-time presence. Members can follow topics without turning every interaction into a notification.",
+      "The architecture separates durable content from ephemeral presence. Posts and comments live in PostgreSQL, while typing indicators and online status travel over WebSockets with short expiry."
+    ],
+    "image": "assets/images/project-social.svg",
+    "imageAlt": "Abstract social platform illustration with feed cards, a purple gradient, and conversation bubbles",
+    "tech": ["Laravel", "Vue.js", "WebSocket", "PostgreSQL", "Redis"],
+    "features": [
+      {
+        "title": "Project-first profiles",
+        "text": "Profiles lead with what someone is making, not a follower count, giving new members an easy way to contribute."
+      },
+      {
+        "title": "Weekly prompts",
+        "text": "A shared prompt gives each group a low-pressure reason to return and a natural place to start conversations."
+      },
+      {
+        "title": "Quiet notifications",
+        "text": "Digest-style updates replace per-event pings, with clear controls for mentions, replies, and group activity."
+      }
+    ],
+    "approach": [
+      {
+        "title": "Separate fast and slow data",
+        "text": "Durable conversations and real-time presence use different storage paths, keeping the database predictable and the socket layer lean."
+      },
+      {
+        "title": "Design moderation early",
+        "text": "Reporting, rate limits, and visibility rules were part of the data model from the start rather than added afterward."
+      },
+      {
+        "title": "Make onboarding human",
+        "text": "New members choose a project and a small group before seeing the main feed, which gives the first session a purpose."
+      }
+    ],
+    "demo": true,
+    "featured": true
+  },
+  {
+    "slug": "nova-design-system",
+    "title": "Nova Design System",
+    "category": "UI/UX",
+    "year": "2024",
+    "role": "Design systems designer & frontend engineer",
+    "timeline": "14-week build and rollout",
+    "summary": "A small design system that gives a growing product team one visual language and a dependable path from design to code.",
+    "intro": "A sample design system covering tokens, accessible components, documentation, and the workflow between Figma and production. The goal was not to build everything, but to make the next feature cheaper to ship.",
+    "overview": [
+      "Nova starts with a compact token set for color, type, spacing, radius, and elevation. Components are intentionally opinionated, with documented variations instead of endless configuration.",
+      "Each component ships with usage guidance, keyboard behavior, and visual regression coverage. Designers and engineers review changes together, and new patterns must prove they cannot be expressed with what already exists."
+    ],
+    "image": "assets/images/project-design-system.svg",
+    "imageAlt": "Abstract design system illustration with color swatches, typography specimens, and component blocks",
+    "tech": ["Figma", "Storybook", "CSS", "TypeScript", "Playwright"],
+    "features": [
+      {
+        "title": "Tokens with a purpose",
+        "text": "Semantic names describe intent, making dark mode and future themes changes in one layer rather than dozens of overrides."
+      },
+      {
+        "title": "Accessible by default",
+        "text": "Focus states, labels, and keyboard behavior are built into every interactive component and documented in one place."
+      },
+      {
+        "title": "A review path that sticks",
+        "text": "A small contribution checklist keeps additions consistent and prevents one-off variants from becoming permanent."
+      }
+    ],
+    "approach": [
+      {
+        "title": "Audit before abstracting",
+        "text": "I catalogued existing screens to find real repetition. Components were created only where the patterns had already earned their place."
+      },
+      {
+        "title": "Document decisions, not just props",
+        "text": "Each page explains when to use a pattern, when not to, and what trade-offs come with a variation."
+      },
+      {
+        "title": "Pair design and code reviews",
+        "text": "Changes are reviewed in both Figma and the browser so visual intent and implementation behavior stay aligned."
+      }
+    ],
+    "demo": true,
+    "featured": false
+  },
+  {
+    "slug": "flowboard",
+    "title": "Flowboard",
+    "category": "Web Apps",
+    "year": "2024",
+    "role": "Full-stack developer",
+    "timeline": "9-week concept build",
+    "summary": "A project board for small teams that keeps work visible without turning planning into a second job.",
+    "intro": "A sample planning tool for teams of three to ten people. Flowboard favors clear ownership, lightweight status, and a board that remains understandable after a busy week.",
+    "overview": [
+      "The board combines columns, drag-and-drop, checklists, and activity notes. A compact filter bar makes it possible to focus on one person or one milestone without creating a separate view for every use case.",
+      "The API uses optimistic updates with conflict recovery. If another person changes a card while it is being moved, the interface explains what happened and offers a safe next step."
+    ],
+    "image": "assets/images/project-saas.svg",
+    "imageAlt": "Abstract project management board illustration with kanban columns and task cards",
+    "tech": ["React", "Node.js", "PostgreSQL", "Prisma", "dnd-kit"],
+    "features": [
+      {
+        "title": "A board that stays readable",
+        "text": "WIP limits and card summaries keep columns scannable even when a sprint gets busy."
+      },
+      {
+        "title": "Safe drag-and-drop",
+        "text": "Keyboard controls and live announcements make reordering accessible, while optimistic updates hide network latency."
+      },
+      {
+        "title": "Activity with context",
+        "text": "A compact history answers who changed what and when, without turning every action into a notification."
+      }
+    ],
+    "approach": [
+      {
+        "title": "Start from a real week",
+        "text": "The first prototype modeled an actual planning cycle, including the messy parts: blocked cards, changing priorities, and handoffs."
+      },
+      {
+        "title": "Design the conflict path",
+        "text": "I treated simultaneous edits as a normal case. The recovery flow is visible, reversible, and never silently overwrites another person's work."
+      },
+      {
+        "title": "Keep the API boring",
+        "text": "Clear resource boundaries and predictable updates make the frontend simpler and the backend easier to test."
+      }
+    ],
+    "demo": true,
+    "featured": false
+  },
+  {
+    "slug": "aperture-portfolio",
+    "title": "Aperture Portfolio",
+    "category": "UI/UX",
+    "year": "2023",
+    "role": "UI/UX designer",
+    "timeline": "6-week design engagement",
+    "summary": "A photography portfolio concept where the work leads and the interface knows when to disappear.",
+    "intro": "A sample visual portfolio for a fictional photographer. The design explores pacing, full-bleed imagery, and a navigation pattern that supports browsing without competing with the photographs.",
+    "overview": [
+      "Aperture uses a restrained typographic system and a warm neutral palette. Each series opens with a short statement, then moves into a scrolling sequence with generous space and minimal chrome.",
+      "The mobile experience avoids a conventional grid of thumbnails. Instead, each series becomes a vertical narrative with a persistent index and clear progress, keeping orientation without interrupting the images."
+    ],
+    "image": "assets/images/project-aperture.svg",
+    "imageAlt": "Abstract photography portfolio illustration with layered image frames and a warm neutral palette",
+    "tech": ["Figma", "Design research", "Prototyping", "Accessibility"],
+    "features": [
+      {
+        "title": "Series-led browsing",
+        "text": "Photographs are organized into curated series rather than a single chronological stream, giving each body of work a clear beginning and end."
+      },
+      {
+        "title": "A quiet navigation model",
+        "text": "A slim index and keyboard shortcuts support moving between series without a heavy menu overlay."
+      },
+      {
+        "title": "Image-first performance",
+        "text": "The design accounts for responsive crops, lazy loading, and meaningful alternative text from the start."
+      }
+    ],
+    "approach": [
+      {
+        "title": "Study the viewing rhythm",
+        "text": "I tested several pacing patterns to find one that feels calm on a phone and intentional on a large display."
+      },
+      {
+        "title": "Prototype the transitions",
+        "text": "Motion was evaluated in context, then reduced to the smallest set of cues needed to preserve orientation."
+      },
+      {
+        "title": "Design the content rules",
+        "text": "A short editorial guide defines image counts, captions, and series structure so the system remains coherent as work is added."
+      }
+    ],
+    "demo": true,
+    "featured": false
+  }
+]

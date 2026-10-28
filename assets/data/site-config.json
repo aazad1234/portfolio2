@@ -1,0 +1,50 @@
+{
+  "brand": {
+    "name": "John Anderson",
+    "firstName": "John",
+    "wordmark": "John",
+    "initials": "JA",
+    "role": "Full Stack Developer",
+    "tagline": "Crafting digital experiences with clean code and modern design.",
+    "shortBio": "Full stack developer focused on fast, accessible, and maintainable web products.",
+    "yearsExperience": 8
+  },
+  "url": "https://johnanderson.dev",
+  "contact": {
+    "email": "john@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA",
+    "timezone": "Pacific Time (UTC-8)",
+    "availability": "Available for select projects",
+    "responseNote": "This demo portfolio does not send email automatically."
+  },
+  "socials": [
+    {
+      "label": "GitHub",
+      "icon": "ri-github-line",
+      "url": "https://github.com/",
+      "placeholder": true
+    },
+    {
+      "label": "LinkedIn",
+      "icon": "ri-linkedin-line",
+      "url": "https://www.linkedin.com/",
+      "placeholder": true
+    },
+    {
+      "label": "X (Twitter)",
+      "icon": "ri-twitter-x-line",
+      "url": "https://x.com/",
+      "placeholder": true
+    }
+  ],
+  "contactForm": {
+    "endpoint": "",
+    "privacyNote": "Your details stay in this browser unless you choose to send an email."
+  },
+  "resume": "assets/files/john-anderson-cv.pdf",
+  "defaultOgImage": "assets/images/og-image.png",
+  "demoMode": true,
+  "demoNotice": "Demo portfolio: projects, testimonials, career history, and contact details are illustrative.",
+  "copyrightStartYear": 2026
+}

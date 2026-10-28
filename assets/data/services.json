@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "full-stack-development",
+    "title": "Full-stack web applications",
+    "icon": "ri-code-s-slash-line",
+    "short": "End-to-end product development from data model to polished interface.",
+    "description": "I build complete web applications with a clear architecture, maintainable components, and a strong focus on the workflows people repeat every day.",
+    "deliverables": [
+      "Technical discovery and scope",
+      "Application architecture",
+      "Responsive UI implementation",
+      "API and database integration",
+      "Testing and deployment support"
+    ],
+    "bestFor": "Teams with a defined product idea that need a dependable build partner.",
+    "featured": true
+  },
+  {
+    "slug": "frontend-engineering",
+    "title": "Frontend engineering & design systems",
+    "icon": "ri-layout-4-line",
+    "short": "Accessible interfaces and reusable components that stay coherent as products grow.",
+    "description": "From a new marketing site to a complex product interface, I turn design intent into semantic, responsive frontend code with patterns the whole team can reuse.",
+    "deliverables": [
+      "Component architecture",
+      "Design token implementation",
+      "Accessible responsive layouts",
+      "Interaction and state design",
+      "Storybook or pattern documentation"
+    ],
+    "bestFor": "Product teams outgrowing ad-hoc styles or preparing for a design-system investment.",
+    "featured": true
+  },
+  {
+    "slug": "api-database-design",
+    "title": "API & database design",
+    "icon": "ri-database-2-line",
+    "short": "Predictable APIs and data models designed around the access patterns that matter.",
+    "description": "I design and implement APIs and relational data models that are straightforward to consume, test, and operate, with attention to migrations and long-term change.",
+    "deliverables": [
+      "Data model and schema review",
+      "REST or GraphQL API design",
+      "Authentication and permissions",
+      "Migration planning",
+      "Integration documentation"
+    ],
+    "bestFor": "Products with growing data complexity or teams untangling an overloaded backend.",
+    "featured": true
+  },
+  {
+    "slug": "performance-seo",
+    "title": "Performance & technical SEO",
+    "icon": "ri-speed-up-line",
+    "short": "Faster pages and crawlable foundations, measured against real user conditions.",
+    "description": "I audit and improve loading performance, rendering stability, metadata, and crawlability, then verify the changes with before-and-after measurements.",
+    "deliverables": [
+      "Performance audit",
+      "Core Web Vitals remediation",
+      "Technical SEO review",
+      "Structured data implementation",
+      "Measurement checklist"
+    ],
+    "bestFor": "Sites that look fine but feel slow, or content sites that are not being discovered.",
+    "featured": false
+  },
+  {
+    "slug": "accessibility-audit",
+    "title": "Accessibility audits & remediation",
+    "icon": "ri-accessible-line",
+    "short": "Practical accessibility improvements, prioritized by user impact.",
+    "description": "I review interfaces against WCAG 2.2 AA, test with keyboard and assistive technology, and deliver a prioritized plan with implementation support rather than a generic checklist.",
+    "deliverables": [
+      "Keyboard and screen-reader review",
+      "Contrast and motion checks",
+      "Prioritized issue report",
+      "Component-level remediation",
+      "Team handoff notes"
+    ],
+    "bestFor": "Teams preparing for procurement requirements or wanting a genuinely usable product.",
+    "featured": false
+  },
+  {
+    "slug": "maintenance-support",
+    "title": "Maintenance & ongoing support",
+    "icon": "ri-tools-line",
+    "short": "Steady improvements, dependency care, and a reliable partner after launch.",
+    "description": "Launch is not the end. I help teams keep dependencies current, fix the right bugs, improve rough edges, and plan the next round of product work.",
+    "deliverables": [
+      "Monthly maintenance window",
+      "Bug triage and fixes",
+      "Dependency and security updates",
+      "Small feature delivery",
+      "Technical planning notes"
+    ],
+    "bestFor": "Small teams with a live product but no dedicated full-time engineer.",
+    "featured": false
+  }
+]

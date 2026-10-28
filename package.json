@@ -1,0 +1,21 @@
+{
+  "name": "john-anderson-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Multi-page portfolio for full stack developer John Anderson.",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "serve": "node scripts/serve.js",
+    "dev": "node scripts/serve.js",
+    "seo": "node scripts/generate-seo.js",
+    "build": "node scripts/generate-seo.js && node scripts/validate-site.js",
+    "validate": "node scripts/validate-site.js",
+    "test": "node --test tests/",
+    "check": "npm run build && npm test",
+    "pdf": "node scripts/generate-cv-pdf.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

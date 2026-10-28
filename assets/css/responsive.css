@@ -1,0 +1,529 @@
+@media (max-width: 1199px) {
+  .nav-link {
+    padding-inline: 0.55rem;
+    font-size: 0.8rem;
+  }
+
+  .header-actions {
+    gap: 0.35rem;
+  }
+
+  .capability-grid,
+  .mini-stat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero__portrait-wrap {
+    width: clamp(16rem, 27vw, 22rem);
+  }
+
+  .float-card--experience {
+    left: -8%;
+  }
+
+  .float-card--stack {
+    right: -8%;
+  }
+}
+
+@media (max-width: 1023px) {
+  :root {
+    --header-height: 4.35rem;
+  }
+
+  .primary-nav {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .header-actions {
+    margin-left: auto;
+  }
+
+  .hero {
+    min-height: 0;
+    padding-block: 3rem 1.2rem;
+  }
+
+  .hero__inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.8rem;
+  }
+
+  .hero__copy {
+    max-width: 44rem;
+  }
+
+  .hero__visual {
+    margin-top: 0.35rem;
+  }
+
+  .hero__portrait-wrap {
+    width: clamp(17rem, 42vw, 22rem);
+  }
+
+  .float-card--experience {
+    left: -12%;
+  }
+
+  .float-card--stack {
+    right: -12%;
+  }
+
+  .hero__footer {
+    margin-top: 2.5rem;
+  }
+
+  .page-intro__inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.25rem;
+  }
+
+  .page-intro__aside {
+    width: min(100%, 34rem);
+  }
+
+  .split {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.5rem;
+  }
+
+  .split__media {
+    width: min(100%, 40rem);
+  }
+
+  .split__aside {
+    width: 100%;
+  }
+
+  .card-grid--projects,
+  .card-grid--services,
+  .card-grid--posts,
+  .card-grid--testimonials,
+  .card-grid--principles,
+  .value-grid,
+  .engagement-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contact-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .contact-sidebar {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+  }
+
+  .contact-summary {
+    grid-column: 1 / -1;
+  }
+
+  .case-study__hero-grid,
+  .case-study__body,
+  .article-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .case-study__sidebar,
+  .article-sidebar {
+    position: static;
+    order: -1;
+  }
+
+  .case-study__aside-card,
+  .article-sidebar .case-study__aside-card {
+    max-width: 34rem;
+  }
+
+  .article-content {
+    order: 0;
+  }
+
+  .footer-top {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .footer-contact {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.3rem 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .footer-contact .footer-title,
+  .footer-contact__text {
+    grid-column: 1;
+  }
+
+  .footer-contact__cta {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 899px) {
+  .post-card--featured {
+    grid-column: auto;
+    display: flex;
+  }
+
+  .post-card--featured .post-cover {
+    aspect-ratio: 16 / 9;
+  }
+
+  .post-card--featured .post-card__title {
+    font-size: 1.12rem;
+  }
+
+  .case-study__hero-copy h1,
+  .article-hero__inner h1 {
+    font-size: clamp(2.2rem, 6vw, 3.2rem);
+  }
+
+  .contact-sidebar {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .contact-summary {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --gutter: 1.15rem;
+  }
+
+  .header-cta {
+    display: none;
+  }
+
+  .brand__wordmark {
+    font-size: 1.55rem;
+  }
+
+  .hero {
+    padding-top: 2.4rem;
+  }
+
+  .hero__title {
+    font-size: clamp(2.55rem, 11vw, 3.6rem);
+  }
+
+  .hero__actions,
+  .page-intro__actions,
+  .error-page__actions {
+    width: 100%;
+  }
+
+  .hero__actions .btn,
+  .page-intro__actions .btn,
+  .error-page__actions .btn {
+    flex: 1 1 auto;
+  }
+
+  .hero__footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .hero__note {
+    text-align: left;
+  }
+
+  .hero__socials {
+    gap: 0.7rem;
+  }
+
+  .float-card {
+    display: none;
+  }
+
+  .section-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .section-heading .link-arrow {
+    margin-bottom: 0;
+  }
+
+  .section-heading--center {
+    align-items: center;
+  }
+
+  .card-grid--projects,
+  .card-grid--services,
+  .card-grid--posts,
+  .card-grid--testimonials,
+  .card-grid--principles,
+  .card-grid--skills,
+  .card-grid--mini,
+  .capability-grid,
+  .process-grid,
+  .engagement-grid,
+  .value-grid,
+  .mini-stat-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .mini-feature-grid,
+  .feature-grid,
+  .project-pagination,
+  .detail-loading__columns,
+  .form-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .stats-grid {
+    gap: 0.65rem;
+  }
+
+  .cta-panel {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 1.5rem;
+    border-radius: var(--radius-lg);
+  }
+
+  .cta-panel__actions .btn {
+    flex: 1 1 auto;
+  }
+
+  .archive-toolbar,
+  .archive-toolbar--blog {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .blog-toolbar__controls {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .search-field {
+    width: 100%;
+  }
+
+  .search-field input {
+    width: 100%;
+  }
+
+  .archive-count {
+    width: 100%;
+  }
+
+  .contact-form__actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .contact-form__actions .btn {
+    width: 100%;
+  }
+
+  .contact-sidebar {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .contact-panel {
+    border-radius: var(--radius-lg);
+  }
+
+  .case-study__facts {
+    width: 100%;
+  }
+
+  .case-study__facts dl > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+
+  .case-study__facts dd {
+    text-align: left;
+  }
+
+  .timeline-item {
+    padding-left: 2rem;
+  }
+
+  .timeline-card__head {
+    flex-direction: column;
+  }
+
+  .timeline-card__head .badge {
+    align-self: flex-start;
+  }
+
+  .author-card {
+    flex-direction: column;
+  }
+
+  .article-hero__bottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .article-actions {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .article-actions .btn {
+    flex: 1 1 auto;
+  }
+
+  .article-layout,
+  .case-study__body {
+    gap: 1.75rem;
+  }
+
+  .footer-top {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.2rem;
+  }
+
+  .footer-contact {
+    display: block;
+    grid-column: auto;
+  }
+
+  .footer-contact__cta {
+    margin-top: 1rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-demo {
+    text-align: left;
+  }
+
+  .error-page {
+    min-height: 0;
+  }
+
+  .error-page__links {
+    gap: 0.5rem;
+  }
+
+  .error-page__code {
+    -webkit-text-stroke-width: 1px;
+  }
+}
+
+@media (max-width: 519px) {
+  .brand__meta {
+    display: none;
+  }
+
+  .brand__wordmark {
+    font-size: 1.5rem;
+  }
+
+  .hero__title {
+    font-size: clamp(2.3rem, 12.5vw, 3.15rem);
+  }
+
+  .availability--hero {
+    font-size: 0.7rem;
+  }
+
+  .hero__role {
+    gap: 0.35rem;
+    font-size: 0.88rem;
+  }
+
+  .page-intro__copy h1 {
+    font-size: clamp(2.1rem, 10vw, 2.8rem);
+  }
+
+  .section {
+    padding-block: 3.25rem;
+  }
+
+  .contact-panel,
+  .contact-method-card,
+  .contact-steps,
+  .contact-location-card {
+    padding: 1.1rem;
+  }
+
+  .testimonial-card {
+    padding: 1.15rem;
+  }
+
+  .post-card__body,
+  .project-card__body {
+    padding: 1rem;
+  }
+
+  .footer-links {
+    gap: 1.2rem;
+  }
+
+  .cta-panel__actions {
+    flex-direction: column;
+  }
+
+  .cta-panel__actions .btn {
+    width: 100%;
+  }
+
+  .error-page__actions {
+    flex-direction: column;
+  }
+
+  .error-page__actions .btn {
+    width: 100%;
+  }
+
+  .scroll-top {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .post-card--featured {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+  }
+
+  .post-card--featured .post-cover {
+    height: 100%;
+    min-height: 17rem;
+    aspect-ratio: auto;
+  }
+
+  .post-card--featured .post-card__body {
+    justify-content: center;
+    padding: 1.5rem;
+  }
+
+  .post-card--featured .post-card__title {
+    font-size: 1.5rem;
+  }
+
+  .post-card--featured .post-card__excerpt {
+    font-size: 0.87rem;
+  }
+}

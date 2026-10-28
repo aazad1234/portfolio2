@@ -1,0 +1,98 @@
+{
+  "primary": [
+    {
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "label": "About",
+      "href": "about.html",
+      "children": [
+        {
+          "label": "About Me",
+          "href": "about.html",
+          "description": "The person, the process, and the principles."
+        },
+        {
+          "label": "Skills & Expertise",
+          "href": "skills.html",
+          "description": "The tools and disciplines I work with."
+        },
+        {
+          "label": "Experience",
+          "href": "experience.html",
+          "description": "A timeline of roles, learning, and growth."
+        },
+        {
+          "label": "Testimonials",
+          "href": "testimonials.html",
+          "description": "Sample feedback from collaborators."
+        }
+      ]
+    },
+    {
+      "label": "Services",
+      "href": "services.html"
+    },
+    {
+      "label": "Portfolio",
+      "href": "projects.html"
+    },
+    {
+      "label": "Blog",
+      "href": "blog.html"
+    },
+    {
+      "label": "Contact",
+      "href": "contact.html"
+    }
+  ],
+  "footerGroups": [
+    {
+      "title": "Explore",
+      "links": [
+        {
+          "label": "Home",
+          "href": "index.html"
+        },
+        {
+          "label": "About",
+          "href": "about.html"
+        },
+        {
+          "label": "Portfolio",
+          "href": "projects.html"
+        },
+        {
+          "label": "Blog",
+          "href": "blog.html"
+        },
+        {
+          "label": "Contact",
+          "href": "contact.html"
+        }
+      ]
+    },
+    {
+      "title": "Expertise",
+      "links": [
+        {
+          "label": "Services",
+          "href": "services.html"
+        },
+        {
+          "label": "Skills",
+          "href": "skills.html"
+        },
+        {
+          "label": "Experience",
+          "href": "experience.html"
+        },
+        {
+          "label": "Testimonials",
+          "href": "testimonials.html"
+        }
+      ]
+    }
+  ]
+}

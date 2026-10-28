@@ -1,0 +1,29 @@
+{
+  "notice": "Sample testimonials for layout demonstration only. These are illustrative quotes, not verified client feedback. Replace them with approved testimonials before publishing.",
+  "items": [
+    {
+      "name": "Sarah Thompson",
+      "role": "CEO",
+      "company": "TechStart Inc. (sample)",
+      "quote": "John's expertise in full-stack development helped us launch our product ahead of schedule. His attention to detail and problem-solving skills are exceptional.",
+      "avatar": "assets/images/avatar-sarah.jpg",
+      "sample": true
+    },
+    {
+      "name": "Michael Chen",
+      "role": "Founder",
+      "company": "InnovateLab (sample)",
+      "quote": "Working with John was a great experience. He not only delivered high-quality code but also provided valuable insights for improving our product.",
+      "avatar": "assets/images/avatar-michael.jpg",
+      "sample": true
+    },
+    {
+      "name": "Emily Rodriguez",
+      "role": "CTO",
+      "company": "DataFlow Systems (sample)",
+      "quote": "John's technical expertise and communication skills made him an invaluable asset to our team. He consistently delivered beyond expectations.",
+      "avatar": "assets/images/avatar-emily.jpg",
+      "sample": true
+    }
+  ]
+}
