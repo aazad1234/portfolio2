@@ -44,7 +44,70 @@
 </head>
 <body id="top" data-page="experience.html" data-nav="experience.html" class="page-experience">
   <a class="skip-link" href="#main-content">Skip to content</a>
-  <div data-component="header"></div>
+  <header class="site-header" data-site-header>
+  <div class="site-header__inner">
+    <div class="container site-header__bar">
+      <a class="brand" href="index.html" aria-label="John Anderson, home">
+        <span class="brand__wordmark">John<span class="brand__dot" aria-hidden="true">.</span></span>
+        <span class="brand__meta">Graphic Designer &amp; Art Director</span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <ul class="nav-list" id="primary-nav-list">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false">
+          <i class="ri-moon-line" data-theme-icon aria-hidden="true"></i>
+        </button>
+        <a class="btn btn--primary btn--sm header-cta" href="contact.html">
+          Let's talk
+          <i class="ri-arrow-right-up-line" aria-hidden="true"></i>
+        </a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation menu">
+          <span class="nav-toggle__box" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-nav" id="mobile-nav" hidden>
+    <button class="mobile-nav__backdrop" type="button" data-nav-close tabindex="-1" aria-hidden="true" aria-label="Close navigation menu"></button>
+    <div class="mobile-nav__panel" role="dialog" aria-modal="true" aria-label="Site navigation">
+      <div class="mobile-nav__head">
+        <a class="brand brand--mobile" href="index.html" aria-label="John Anderson, home">
+          <span class="brand__wordmark">John<span class="brand__dot" aria-hidden="true">.</span></span>
+          <span class="brand__meta">Graphic Designer &amp; Art Director</span>
+        </a>
+        <button class="icon-button mobile-nav__close" type="button" data-nav-close aria-label="Close navigation menu">
+          <i class="ri-close-line" aria-hidden="true"></i>
+        </button>
+      </div>
+      <nav class="mobile-nav__nav" aria-label="Mobile primary">
+        <ul class="mobile-nav__list" id="mobile-nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-nav__footer">
+        <p class="availability"><span class="status-dot" aria-hidden="true"></span> Available for select projects</p>
+        <a class="btn btn--primary btn--block" href="contact.html">Start a project</a>
+        <div class="mobile-nav__socials" data-mobile-socials aria-label="Social links"></div>
+      </div>
+    </div>
+  </div>
+</header>
   <div data-component="breadcrumbs"></div>
 
   <noscript>
@@ -137,8 +200,64 @@
     </section>
   </main>
 
-  <div data-component="footer"></div>
-  <div data-component="scroll-to-top"></div>
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand brand--footer" href="index.html" aria-label="John Anderson, home">
+          <span class="brand__wordmark">John<span class="brand__dot" aria-hidden="true">.</span></span>
+          <span class="brand__meta">Graphic Designer &amp; Art Director</span>
+        </a>
+        <p class="footer-tagline" data-footer-tagline>Crafting distinctive visual identities, bespoke editorial publications, and timeless brand systems.</p>
+        <ul class="social-list" data-footer-socials aria-label="Social profiles"></ul>
+      </div>
+
+      <div class="footer-links" data-footer-groups>
+        <div class="footer-group">
+          <h2 class="footer-title">Explore</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-group">
+          <h2 class="footer-title">Expertise</h2>
+          <ul>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <h2 class="footer-title">Start a conversation</h2>
+        <p class="footer-contact__text">Have a project, a rough idea, or a problem worth solving? I would like to hear about it.</p>
+        <a class="footer-email" data-footer-email href="mailto:john@example.com">john@example.com</a>
+        <a class="footer-phone" data-footer-phone href="tel:+15551234567">+1 (555) 123-4567</a>
+        <p class="footer-location" data-footer-location>San Francisco, CA</p>
+        <a class="btn btn--ghost btn--sm footer-contact__cta" href="contact.html">Get in touch <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span data-current-year>2026</span> <span data-site-name>John Anderson</span>. All rights reserved.</p>
+      <p class="footer-demo" data-demo-notice>Demo portfolio: projects, testimonials, career history, and contact details are illustrative.</p>
+      <div class="footer-bottom__links">
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+        <a href="#top" data-back-to-top>Back to top</a>
+      </div>
+    </div>
+  </div>
+</footer>
+  <button class="scroll-top" type="button" data-scroll-top aria-label="Back to top" hidden>
+  <i class="ri-arrow-up-line" aria-hidden="true"></i>
+</button>
   <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>
