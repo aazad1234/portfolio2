@@ -12,7 +12,7 @@
   <meta name="keywords" content="client testimonials, creative director praise, designer recommendations, collaborator feedback">
   <meta name="robots" content="index,follow">
   <meta name="author" content="John Anderson">
-  <meta name="theme-color" content="#FFEAD3">
+  <meta name="theme-color" content="#0284C7">
   <meta name="color-scheme" content="light">
   <link rel="canonical" href="https://johnanderson.dev/testimonials.html">
   <meta property="og:title" content="Collaborator Testimonials &amp; Praise | John Anderson">
@@ -44,7 +44,7 @@
 </head>
 <body id="top" data-page="testimonials.html" data-nav="testimonials.html" class="page-testimonials">
   <a class="skip-link" href="#main-content">Skip to content</a>
-  <header class="site-header" data-site-header>
+  <header class="site-header" data-component="header" data-site-header>
   <div class="site-header__inner">
     <div class="container site-header__bar">
       <a class="brand" href="index.html" aria-label="John Anderson, home">
@@ -201,7 +201,7 @@
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" data-component="footer">
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
@@ -256,9 +256,9 @@
     </div>
   </div>
 </footer>
-  <button class="scroll-top" type="button" data-scroll-top aria-label="Back to top" hidden>
+  <div data-component="scroll-to-top" data-static-component><button class="scroll-top" type="button" data-scroll-top aria-label="Back to top" hidden>
   <i class="ri-arrow-up-line" aria-hidden="true"></i>
-</button>
+</button></div>
   <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>

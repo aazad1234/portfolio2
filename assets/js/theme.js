@@ -35,7 +35,7 @@ export function initTheme() {
       icon.className = normalized === 'dark' ? 'ri-sun-line' : 'ri-moon-line';
     }
     if (themeColor) {
-      themeColor.setAttribute('content', '#FFEAD3');
+      themeColor.setAttribute('content', '#0284C7');
     }
     if (persist) saveTheme(normalized);
   };

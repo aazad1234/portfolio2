@@ -53,6 +53,16 @@ async function loadComponent(slot) {
   const name = slot.getAttribute('data-component');
   if (!name) return;
 
+  // If slot is already an embedded static component, preserve it without fetching
+  if (
+    slot.hasAttribute('data-site-header') ||
+    (slot.classList && slot.classList.contains('site-footer') && slot.children.length > 0) ||
+    slot.hasAttribute('data-static-component')
+  ) {
+    slot.setAttribute('data-component-name', name);
+    return;
+  }
+
   const url = new URL(`components/${name}.html`, document.baseURI);
   const response = await fetch(url, { cache: 'no-cache' });
   if (!response.ok) {
