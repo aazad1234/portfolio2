@@ -1,281 +1,281 @@
 [
   {
-    "slug": "analytics-dashboard",
-    "title": "Analytics Dashboard",
-    "category": "Web Apps",
+    "slug": "aura-botanicals",
+    "title": "Aura Botanicals",
+    "category": "Brand Identity",
     "year": "2026",
-    "role": "Product designer & full-stack developer",
-    "timeline": "10-week self-directed concept build",
-    "summary": "A calm analytics workspace that turns noisy operational data into a clear weekly story.",
-    "intro": "A sample analytics product designed for small teams who need answers without a data analyst on call. The focus is on fast scanning, readable charts, and a hierarchy that makes the next question obvious.",
+    "role": "Art director & brand identity designer",
+    "timeline": "10-week brand & packaging sprint",
+    "summary": "An enduring visual identity, sustainable unboxing system, and packaging suite for an organic skincare laboratory.",
+    "intro": "A comprehensive brand identity and packaging project for an artisanal skincare house rooted in California flora. The goal was to express clinical efficacy while retaining an intimate, tactile connection to the earth.",
     "overview": [
-      "The dashboard began with a simple observation: most analytics tools are optimized for exploration, while most teams need a reliable weekly view. I designed a landing view around three recurring questions: what changed, why it changed, and what needs attention next.",
-      "The interface combines a compact KPI row, a time-series chart with annotations, and a set of drill-down panels. Every chart shares one date range and one filtering model so users can compare numbers without second-guessing the context."
+      "Aura Botanicals approached the studio to design a holistic brand architecture spanning custom logotypes, bespoke typography, glass bottle labeling, and secondary packaging crafted entirely from post-consumer recycled hemp paper.",
+      "The visual system pairs an organic emerald green palette with crisp blind-debossed white surfaces. Micro-typography was carefully calibrated across multilingual regulatory specifications without compromising visual serenity."
     ],
-    "image": "assets/images/project-analytics.svg",
-    "imageAlt": "Abstract dark analytics dashboard illustration with line charts, bars, and a donut chart",
-    "tech": ["React", "TypeScript", "D3.js", "Firebase", "Vitest"],
+    "image": "assets/images/project-aura.svg",
+    "imageAlt": "Minimalist botanical skincare packaging and visual identity in forest green and white",
+    "tech": ["Brand Architecture", "Packaging Dielines", "Adobe Illustrator", "InDesign", "Sustainable Substrates"],
     "features": [
       {
-        "title": "One shared time range",
-        "text": "A single control drives every panel, with visible date context and a quick reset for comparisons."
+        "title": "Modular packaging grid",
+        "text": "A unified mathematical dieline system that accommodates twelve bottle volumes and jar dimensions effortlessly."
       },
       {
-        "title": "Charts that explain themselves",
-        "text": "Inline annotations mark releases, campaigns, and unusual events so a spike has a story attached."
+        "title": "Blind deboss & foil stamping",
+        "text": "Subtle tactile finishes on FSC-certified cotton paper stocks that elevate unboxing without plastic laminates."
       },
       {
-        "title": "A useful empty state",
-        "text": "New workspaces get sample data, a short setup checklist, and clear next actions instead of a blank grid."
+        "title": "Comprehensive brand bible",
+        "text": "A rigorous 84-page style guide covering logotype clearances, clear zones, optical weights, and print tolerances."
       }
     ],
     "approach": [
       {
-        "title": "Model the questions first",
-        "text": "I mapped the weekly review conversation before drawing screens. The final layout mirrors the order in which a team asks and answers questions."
+        "title": "Material testing before screen design",
+        "text": "We sourced and tested seventeen unbleached paper stocks with master screenprinters before finalizing ink formulations."
       },
       {
-        "title": "Design for daylight and midnight",
-        "text": "Charts were tested in light and dark themes with color-blind simulations. Semantic colors and direct labels reduce reliance on hue alone."
+        "title": "Typographic hierarchy under strict constraints",
+        "text": "FDA ingredient panels and volume disclaimers were harmonized using strict Swiss grid proportions."
       },
       {
-        "title": "Keep the chart layer small",
-        "text": "A thin wrapper around D3 handles scales and axes while React owns state and rendering. The result is easier to test and less coupled to a charting library."
+        "title": "Eco-conscious production standards",
+        "text": "Eliminated all foil stamping foils containing petroleum plastics in favor of 100% compostable cellulose foils."
       }
     ],
     "demo": true,
     "featured": true
   },
   {
-    "slug": "northline-shop",
-    "title": "Northline Shop",
-    "category": "Mobile Apps",
+    "slug": "kvadrat-quarterly",
+    "title": "Kvadrat Quarterly",
+    "category": "Editorial Design",
     "year": "2025",
-    "role": "Mobile developer & interaction designer",
-    "timeline": "8-week concept sprint",
-    "summary": "A focused mobile storefront built around quick decisions, honest product content, and a checkout that stays out of the way.",
-    "intro": "A sample mobile commerce experience for a small independent outdoor brand. The product is intentionally narrow: fewer choices, better photography, and a checkout that respects the customer's time.",
+    "role": "Editorial art director & lead typographer",
+    "timeline": "8-week publication design",
+    "summary": "A 180-page hardbound architectural monograph celebrating modernist spatial design and textile craft.",
+    "intro": "A collector's monograph exploring the tactile intersections of brutalist architecture and woven textiles. The layout embraces deliberate asymmetry, generous margins, and exacting micro-typesetting.",
     "overview": [
-      "Northline explores how a small catalogue can feel premium without hiding information. Product pages lead with fit, materials, and care details, while the cart stays available but never interrupts browsing.",
-      "The checkout is a three-step flow with saved details, clear delivery expectations, and a summary that remains visible. Error recovery is inline, specific, and never destroys entered data."
+      "Kvadrat Quarterly was conceived as an object of contemplation. Printed in dual-tone deep pine and metallic silver on Fedrigoni Materica paper, the volume honors the weight of physical media.",
+      "The typographic system employs custom optical sizes, varying rhythmically between contemplative full-page imagery and dense, authoritative scholarly essays."
     ],
-    "image": "assets/images/project-commerce.svg",
-    "imageAlt": "Abstract mobile shopping interface illustration with a phone, product cards, and a checkout button",
-    "tech": ["React Native", "Redux Toolkit", "Node.js", "Stripe test mode", "Detox"],
+    "image": "assets/images/project-kvadrat.svg",
+    "imageAlt": "Modernist Swiss editorial publication layout and typographic grid in white and deep forest green",
+    "tech": ["Editorial Layout", "Grid Systems", "Adobe InDesign", "Typography", "Prepress Proofing"],
     "features": [
       {
-        "title": "A three-step checkout",
-        "text": "Contact, delivery, and payment are separated into short, understandable steps with persistent order context."
+        "title": "12-column Swiss grid system",
+        "text": "A mathematically proportioned grid structure that enables seamless transitions between dual-column essays and full-bleed image spreads."
       },
       {
-        "title": "Product details up front",
-        "text": "Fit notes, materials, and shipping expectations live beside the buying controls rather than in a collapsed accordion."
+        "title": "Exposed Smyth-sewn binding",
+        "text": "Lays completely flat when opened on a reading desk, preserving the visual continuity of cross-gutter architectural photographs."
       },
       {
-        "title": "Resilient offline browsing",
-        "text": "Previously viewed products and cart contents remain available when the connection drops, with a clear sync state."
+        "title": "Custom drop caps & glyphs",
+        "text": "Hand-drawn architectural glyphs marking chapter transitions and bibliographic references."
       }
     ],
     "approach": [
       {
-        "title": "Prototype the thumb zone",
-        "text": "Key actions were tested one-handed on small screens before visual polish. Primary controls stay within easy reach."
+        "title": "Rhythm and negative space",
+        "text": "Designed reader pacing with alternating moments of typographic density and calming expansive white space."
       },
       {
-        "title": "Treat slow networks as normal",
-        "text": "Skeleton states, optimistic cart updates, and retryable requests make the experience feel stable on a weak connection."
+        "title": "Press-side color calibration",
+        "text": "Attended four-color lithographic press checks in Bologna to calibrate ink densities and black ink trap values."
       },
       {
-        "title": "Keep motion meaningful",
-        "text": "Transitions explain hierarchy and state changes. Nothing bounces for decoration, and reduced-motion preferences are respected."
+        "title": "Micro-typographic rigor",
+        "text": "Manually kerned all headlines, adjusted tracking per font size, and refined line breaks to prevent orphans and widows."
       }
     ],
     "demo": true,
     "featured": true
   },
   {
-    "slug": "common-ground",
-    "title": "Common Ground",
-    "category": "Web Apps",
+    "slug": "solstice-festival",
+    "title": "Solstice Arts Festival",
+    "category": "Visual Identity",
     "year": "2025",
-    "role": "Full-stack developer",
-    "timeline": "12-week concept build",
-    "summary": "A community platform that makes small-group conversation feel deliberate instead of endless.",
-    "intro": "A sample social product for hobby communities. Instead of chasing infinite feeds, Common Ground organizes discussion around shared projects, weekly prompts, and small groups.",
+    "role": "Lead identity designer & poster artist",
+    "timeline": "12-week campaign rollout",
+    "summary": "A dynamic identity, kinetic poster series, and environmental wayfinding program for an international arts festival.",
+    "intro": "Visual identity and promotional campaign for a 4-day multidisciplinary celebration of sound and light art. The visual language translates ambient waveforms into striking green geometric posters and spatial signage.",
     "overview": [
-      "The product combines a project gallery, threaded discussions, and lightweight real-time presence. Members can follow topics without turning every interaction into a notification.",
-      "The architecture separates durable content from ephemeral presence. Posts and comments live in PostgreSQL, while typing indicators and online status travel over WebSockets with short expiry."
+      "Solstice needed an identity flexible enough to translate from 20-foot outdoor screenprint billboards to illuminated wayfinding totems and compact festival badges.",
+      "The solution was a generative geometric identity centered on the interaction of light waves and shadow, rendered in vibrant emerald, dark forest green, and pure white."
     ],
-    "image": "assets/images/project-social.svg",
-    "imageAlt": "Abstract social platform illustration with feed cards, a purple gradient, and conversation bubbles",
-    "tech": ["Laravel", "Vue.js", "WebSocket", "PostgreSQL", "Redis"],
+    "image": "assets/images/project-solstice.svg",
+    "imageAlt": "Dynamic typographic poster and geometric festival visual identity in emerald and forest green",
+    "tech": ["Poster Design", "Environmental Graphics", "Adobe Illustrator", "Silkscreen Print", "Signage Systems"],
     "features": [
       {
-        "title": "Project-first profiles",
-        "text": "Profiles lead with what someone is making, not a follower count, giving new members an easy way to contribute."
+        "title": "Six-part screenprint poster series",
+        "text": "Limited-edition silkscreen posters printed with glow-in-the-dark and metallic green inks on heavy archival paper."
       },
       {
-        "title": "Weekly prompts",
-        "text": "A shared prompt gives each group a low-pressure reason to return and a natural place to start conversations."
+        "title": "Modular wayfinding language",
+        "text": "High-contrast signage and directional iconography tested for effortless nighttime festival navigation."
       },
       {
-        "title": "Quiet notifications",
-        "text": "Digest-style updates replace per-event pings, with clear controls for mentions, replies, and group activity."
+        "title": "Dynamic accreditation badges",
+        "text": "Die-cut passes with security holograms and customized color coding for artists, press, and crew."
       }
     ],
     "approach": [
       {
-        "title": "Separate fast and slow data",
-        "text": "Durable conversations and real-time presence use different storage paths, keeping the database predictable and the socket layer lean."
+        "title": "Translating sound to geometry",
+        "text": "Analyzed sound frequency recordings of headlining ambient musicians to create the festival's distinctive circular wave motifs."
       },
       {
-        "title": "Design moderation early",
-        "text": "Reporting, rate limits, and visibility rules were part of the data model from the start rather than added afterward."
+        "title": "Legibility at distance",
+        "text": "Conducted optical legibility tests at 50-meter viewing distances to ensure outdoor billboard impact."
       },
       {
-        "title": "Make onboarding human",
-        "text": "New members choose a project and a small group before seeing the main feed, which gives the first session a purpose."
+        "title": "Sustainable exhibition materials",
+        "text": "Specified recyclable aluminum and unbleached cotton banners, eliminating all non-recyclable PVC vinyl."
       }
     ],
     "demo": true,
     "featured": true
   },
   {
-    "slug": "nova-design-system",
-    "title": "Nova Design System",
-    "category": "UI/UX",
+    "slug": "nordic-roastery",
+    "title": "Nordic Roastery",
+    "category": "Packaging",
     "year": "2024",
-    "role": "Design systems designer & frontend engineer",
-    "timeline": "14-week build and rollout",
-    "summary": "A small design system that gives a growing product team one visual language and a dependable path from design to code.",
-    "intro": "A sample design system covering tokens, accessible components, documentation, and the workflow between Figma and production. The goal was not to build everything, but to make the next feature cheaper to ship.",
+    "role": "Brand designer & packaging specialist",
+    "timeline": "6-week concept and production",
+    "summary": "Specialty coffee packaging, bespoke bespoke grotesk typeface, and retail identity for an independent roastery.",
+    "intro": "A minimal, Scandinavian-inspired packaging suite and custom display font for single-origin coffees roasted in Oslo. Built around transparency, origin storytelling, and tactile unboxing.",
     "overview": [
-      "Nova starts with a compact token set for color, type, spacing, radius, and elevation. Components are intentionally opinionated, with documented variations instead of endless configuration.",
-      "Each component ships with usage guidance, keyboard behavior, and visual regression coverage. Designers and engineers review changes together, and new patterns must prove they cannot be expressed with what already exists."
+      "Nordic Roastery celebrates the terroir of specialty coffee. We developed a restrained visual system that allows the origin characteristics of each harvest to take center stage.",
+      "A custom geometric typeface with optical ink traps was drawn specifically for bag labels, providing distinctive presence while guaranteeing clarity at diminutive 6pt tasting note sizes."
     ],
-    "image": "assets/images/project-design-system.svg",
-    "imageAlt": "Abstract design system illustration with color swatches, typography specimens, and component blocks",
-    "tech": ["Figma", "Storybook", "CSS", "TypeScript", "Playwright"],
+    "image": "assets/images/project-nordic.svg",
+    "imageAlt": "Specialty coffee packaging bag and minimalist Scandinavian brand identity in deep pine and white",
+    "tech": ["Custom Typeface", "Packaging Suite", "Glyphs", "Adobe Illustrator", "Retail Graphics"],
     "features": [
       {
-        "title": "Tokens with a purpose",
-        "text": "Semantic names describe intent, making dark mode and future themes changes in one layer rather than dozens of overrides."
+        "title": "Custom display typeface",
+        "text": "Nordic Grotesk: drawn with deep ink traps that maintain sharp edges even on porous kraft coffee bags."
       },
       {
-        "title": "Accessible by default",
-        "text": "Focus states, labels, and keyboard behavior are built into every interactive component and documented in one place."
+        "title": "100% home-compostable pouch",
+        "text": "Constructed from plant-derived PLA and barrier papers that break down naturally within 90 days."
       },
       {
-        "title": "A review path that sticks",
-        "text": "A small contribution checklist keeps additions consistent and prevents one-off variants from becoming permanent."
+        "title": "Color-coded roast labels",
+        "text": "A chromatic classification system using earthy tints of sage, forest, and mint to indicate processing methods."
       }
     ],
     "approach": [
       {
-        "title": "Audit before abstracting",
-        "text": "I catalogued existing screens to find real repetition. Components were created only where the patterns had already earned their place."
+        "title": "Type engineering in Glyphs",
+        "text": "Drawn from scratch to include European diacritics and specialized coffee measurement fractions."
       },
       {
-        "title": "Document decisions, not just props",
-        "text": "Each page explains when to use a pattern, when not to, and what trade-offs come with a variation."
+        "title": "Moisture and aroma barrier testing",
+        "text": "Collaborated with barrier film engineers to protect delicate floral coffee aromas without aluminum foil."
       },
       {
-        "title": "Pair design and code reviews",
-        "text": "Changes are reviewed in both Figma and the browser so visual intent and implementation behavior stay aligned."
+        "title": "Streamlined packing workflow",
+        "text": "Designed label templates that the roastery team can overprint in-house with roast dates and batch numbers."
       }
     ],
     "demo": true,
     "featured": false
   },
   {
-    "slug": "flowboard",
-    "title": "Flowboard",
-    "category": "Web Apps",
+    "slug": "monolith-architecture",
+    "title": "Monolith Studio",
+    "category": "Brand Identity",
     "year": "2024",
-    "role": "Full-stack developer",
-    "timeline": "9-week concept build",
-    "summary": "A project board for small teams that keeps work visible without turning planning into a second job.",
-    "intro": "A sample planning tool for teams of three to ten people. Flowboard favors clear ownership, lightweight status, and a board that remains understandable after a busy week.",
+    "role": "Creative director & stationery designer",
+    "timeline": "8-week identity design",
+    "summary": "Architectural brand identity, tactile stationery suite, and hardbound project portfolio monograph.",
+    "intro": "Brand architecture and tactile printed stationery for a San Francisco architectural practice known for concrete residential structures and serene minimalist interior spaces.",
     "overview": [
-      "The board combines columns, drag-and-drop, checklists, and activity notes. A compact filter bar makes it possible to focus on one person or one milestone without creating a separate view for every use case.",
-      "The API uses optimistic updates with conflict recovery. If another person changes a card while it is being moved, the interface explains what happened and offers a safe next step."
+      "Monolith's buildings are defined by mass, honest materials, and precise geometry. We mirrored this philosophy through heavyweight 600gsm cotton letterpress stationery and a cloth-bound project folio.",
+      "The visual mark combines brutalist weight with refined proportional lines, foil stamped in deep forest green and blind-debossed into cotton stock."
     ],
-    "image": "assets/images/project-saas.svg",
-    "imageAlt": "Abstract project management board illustration with kanban columns and task cards",
-    "tech": ["React", "Node.js", "PostgreSQL", "Prisma", "dnd-kit"],
+    "image": "assets/images/project-monolith.svg",
+    "imageAlt": "Brutalist and minimalist architectural branding and debossed stationery in forest green and white",
+    "tech": ["Brand Strategy", "Stationery Suite", "Letterpress", "Foil Debossing", "InDesign"],
     "features": [
       {
-        "title": "A board that stays readable",
-        "text": "WIP limits and card summaries keep columns scannable even when a sprint gets busy."
+        "title": "600gsm duplex business cards",
+        "text": "Ultra-thick edge-painted cards featuring a deep blind deboss that evokes the physical texture of architectural concrete."
       },
       {
-        "title": "Safe drag-and-drop",
-        "text": "Keyboard controls and live announcements make reordering accessible, while optimistic updates hide network latency."
+        "title": "Hardcover linen monograph",
+        "text": "Bespoke linen-bound client presentation portfolios with foil-stamped lettering and archival photo inserts."
       },
       {
-        "title": "Activity with context",
-        "text": "A compact history answers who changed what and when, without turning every action into a notification."
+        "title": "Architectural proposal system",
+        "text": "A modular InDesign document template that helps partners compile technical blueprints and bids quickly."
       }
     ],
     "approach": [
       {
-        "title": "Start from a real week",
-        "text": "The first prototype modeled an actual planning cycle, including the messy parts: blocked cards, changing priorities, and handoffs."
+        "title": "Material authenticity",
+        "text": "Selected cotton papers made from recovered textile fibers to reflect the firm's sustainable building ethos."
       },
       {
-        "title": "Design the conflict path",
-        "text": "I treated simultaneous edits as a normal case. The recovery flow is visible, reversible, and never silently overwrites another person's work."
+        "title": "Proportional harmony",
+        "text": "Derived all stationery dimensions and margin ratios directly from the Golden Ratio and Le Corbusier's Modulor."
       },
       {
-        "title": "Keep the API boring",
-        "text": "Clear resource boundaries and predictable updates make the frontend simpler and the backend easier to test."
+        "title": "Bespoke letterpress die fabrication",
+        "text": "Supervised magnesium die engraving to achieve crisp 0.2mm blind debossing depth without cracking paper fibers."
       }
     ],
     "demo": true,
     "featured": false
   },
   {
-    "slug": "aperture-portfolio",
-    "title": "Aperture Portfolio",
-    "category": "UI/UX",
+    "slug": "verve-motion-collective",
+    "title": "Verve Motion Studio",
+    "category": "Art Direction",
     "year": "2023",
-    "role": "UI/UX designer",
-    "timeline": "6-week design engagement",
-    "summary": "A photography portfolio concept where the work leads and the interface knows when to disappear.",
-    "intro": "A sample visual portfolio for a fictional photographer. The design explores pacing, full-bleed imagery, and a navigation pattern that supports browsing without competing with the photographs.",
+    "role": "Art director & visual systems designer",
+    "timeline": "10-week brand and digital direction",
+    "summary": "Kinetic visual identity, dynamic variable typography guidelines, and digital design system for a motion studio.",
+    "intro": "An identity crafted for a creative studio specializing in 3D motion design and virtual spatial environments. The brand expresses continuous kinetic energy while remaining disciplined and editorial.",
     "overview": [
-      "Aperture uses a restrained typographic system and a warm neutral palette. Each series opens with a short statement, then moves into a scrolling sequence with generous space and minimal chrome.",
-      "The mobile experience avoids a conventional grid of thumbnails. Instead, each series becomes a vertical narrative with a persistent index and clear progress, keeping orientation without interrupting the images."
+      "Verve required a brand that lives naturally in motion. We designed a variable glyph system whose optical weight and curvature morph based on frame rates and user interaction.",
+      "The system bridges screen and print seamlessly, providing the motion team with guidelines for broadcast title cards, reel presentations, and printed studio promotional booklets."
     ],
-    "image": "assets/images/project-aperture.svg",
-    "imageAlt": "Abstract photography portfolio illustration with layered image frames and a warm neutral palette",
-    "tech": ["Figma", "Design research", "Prototyping", "Accessibility"],
+    "image": "assets/images/project-verve.svg",
+    "imageAlt": "Kinetic brand system, dynamic typography, and digital visual direction in forest green and crisp white",
+    "tech": ["Motion Identity", "Variable Fonts", "Figma", "After Effects", "Design Systems"],
     "features": [
       {
-        "title": "Series-led browsing",
-        "text": "Photographs are organized into curated series rather than a single chronological stream, giving each body of work a clear beginning and end."
+        "title": "Dynamic variable wordmark",
+        "text": "A brand mark that expands and contracts rhythmically in broadcast stingers and web interactions."
       },
       {
-        "title": "A quiet navigation model",
-        "text": "A slim index and keyboard shortcuts support moving between series without a heavy menu overlay."
+        "title": "Motion token library",
+        "text": "Standardized spring curves, easing timing, and spatial choreographies documented in a comprehensive design system."
       },
       {
-        "title": "Image-first performance",
-        "text": "The design accounts for responsive crops, lazy loading, and meaningful alternative text from the start."
+        "title": "Bilingual print & digital lookbook",
+        "text": "A promotional showcase displaying the studio's cinematic reels across interactive web and tactile foil print."
       }
     ],
     "approach": [
       {
-        "title": "Study the viewing rhythm",
-        "text": "I tested several pacing patterns to find one that feels calm on a phone and intentional on a large display."
+        "title": "Frame-by-frame optical correction",
+        "text": "Refined typographic curves at each keyframe step to prevent visual weight distortion during movement."
       },
       {
-        "title": "Prototype the transitions",
-        "text": "Motion was evaluated in context, then reduced to the smallest set of cues needed to preserve orientation."
+        "title": "Design tokens in Figma",
+        "text": "Constructed reusable components, color styles, and type hierarchies for rapid client pitch decks."
       },
       {
-        "title": "Design the content rules",
-        "text": "A short editorial guide defines image counts, captions, and series structure so the system remains coherent as work is added."
+        "title": "Cross-medium color mapping",
+        "text": "Mapped wide-gamut Display P3 colors to Pantone spot inks to ensure vibrant greens look identical on screen and in print."
       }
     ],
     "demo": true,

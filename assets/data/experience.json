@@ -2,72 +2,72 @@
   "notice": "Illustrative career history for this demo portfolio. Replace every entry with verified roles, dates, and education before publishing.",
   "experience": [
     {
-      "role": "Senior Full Stack Developer",
-      "company": "TechStart Inc. (sample)",
+      "role": "Senior Art Director & Brand Lead",
+      "company": "Forma Design Studio (sample)",
       "type": "Full-time",
       "period": "2022 - Present",
       "start": "2022",
       "location": "San Francisco, CA / Remote",
-      "summary": "Lead development for a small product team, balancing interface quality with the operational realities of a growing web application.",
+      "summary": "Directing brand identities, bespoke publications, and packaging systems for design-forward cultural and commercial clients.",
       "highlights": [
-        "Owned the frontend architecture for a multi-tenant product, introducing shared components and clearer state boundaries.",
-        "Partnered with design on an accessible design-system refresh and documented the patterns used across the application.",
-        "Improved release confidence by adding focused end-to-end tests around sign-up, billing, and core reporting flows."
+        "Led full visual identity overhauls and comprehensive brand bibles for 12+ international brands.",
+        "Art-directed quarterly publications, supervising typography layouts, paper selection, and on-press proofing.",
+        "Created an award-winning sustainable packaging system for an organic botanical skincare line."
       ],
-      "tech": ["React", "TypeScript", "Node.js", "PostgreSQL", "AWS"]
+      "tech": ["InDesign", "Illustrator", "Photoshop", "Figma", "Glyphs"]
     },
     {
-      "role": "Full Stack Developer",
-      "company": "InnovateLab (sample)",
+      "role": "Lead Brand & Editorial Designer",
+      "company": "Atelier Vanguard (sample)",
       "type": "Full-time",
       "period": "2019 - 2022",
       "start": "2019",
       "location": "Remote",
-      "summary": "Built customer-facing features across a Laravel API and a Vue.js frontend for a product studio serving early-stage teams.",
+      "summary": "Crafted cohesive visual design systems, brand identities, and exhibition print collateral for independent studios and publishers.",
       "highlights": [
-        "Shipped a reusable account and permissions layer used by several product modules.",
-        "Introduced component documentation and a lightweight visual review process for shared interface patterns.",
-        "Worked directly with clients to turn ambiguous requirements into small, testable delivery increments."
+        "Designed comprehensive visual guidelines and dieline packaging for specialty retail products.",
+        "Orchestrated photography art direction and created modular editorial grid layouts.",
+        "Collaborated directly with founders and curators to turn conceptual values into tactile print artifacts."
       ],
-      "tech": ["Laravel", "Vue.js", "MySQL", "Redis", "Docker"]
+      "tech": ["Adobe Creative Cloud", "Figma", "Print Prepress", "Pantone PMS", "Procreate"]
     },
     {
-      "role": "Frontend Developer",
-      "company": "DataFlow Systems (sample)",
+      "role": "Graphic & Publication Designer",
+      "company": "Counterpoint Press (sample)",
       "type": "Full-time",
       "period": "2018 - 2019",
       "start": "2018",
-      "location": "San Jose, CA",
-      "summary": "Focused on responsive data interfaces and the everyday usability of internal operations tools.",
+      "location": "New York, NY",
+      "summary": "Focused on book cover art, typographic hierarchy, editorial layouts, and prepress production.",
       "highlights": [
-        "Rebuilt key data-entry screens with semantic markup, keyboard support, and clearer validation feedback.",
-        "Created a small chart component library that reduced one-off visualization code.",
-        "Learned to pair performance budgets with real user workflows rather than lab-only metrics."
+        "Typeset and designed 18 published monographs and literary journals with rigorous Swiss grid systems.",
+        "Created custom lettering marks and conducted prepress spot-color separations.",
+        "Attended press checks with artisanal printers to verify ink densities and foil stamp registration."
       ],
-      "tech": ["JavaScript", "HTML", "CSS", "D3.js", "PHP"]
+      "tech": ["InDesign", "Illustrator", "Photoshop", "Typesetting", "Prepress"]
     }
   ],
   "education": [
     {
-      "degree": "B.Sc. Computer Science",
-      "institution": "State University (sample)",
+      "degree": "BFA in Graphic Design & Typography",
+      "institution": "Rhode Island School of Design (RISD)",
       "period": "2014 - 2018",
-      "summary": "Coursework in software engineering, databases, human-computer interaction, and web systems. This is illustrative education content for the demo.",
+      "summary": "Concentrations in typographic theory, Swiss grid systems, publication design, and experimental printmaking. Illustrative education for demo portfolio.",
       "sample": true
     }
   ],
   "learning": [
     {
-      "title": "Accessibility engineering",
-      "text": "Ongoing study of WCAG, assistive technology behavior, and accessible component patterns."
+      "title": "Experimental Variable Typefaces",
+      "text": "Designing multi-axis variable typography in Glyphs with optical sizing for high-end editorial display."
     },
     {
-      "title": "Design systems at scale",
-      "text": "Reading and experimenting with token architecture, documentation, and contribution workflows."
+      "title": "Sustainable Bio-Substrates & Eco Inks",
+      "text": "Researching compostable foils, FSC-certified cotton papers, and soy-algae inks for luxury retail unboxing."
     },
     {
-      "title": "Web performance",
-      "text": "Practical measurement of loading, rendering, and interaction costs across real devices and networks."
+      "title": "Spatial Graphics & Environmental Signage",
+      "text": "Translating 2D brand identities into three-dimensional exhibition spaces and architectural wayfinding."
     }
   ]
 }

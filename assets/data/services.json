@@ -1,98 +1,98 @@
 [
   {
-    "slug": "full-stack-development",
-    "title": "Full-stack web applications",
-    "icon": "ri-code-s-slash-line",
-    "short": "End-to-end product development from data model to polished interface.",
-    "description": "I build complete web applications with a clear architecture, maintainable components, and a strong focus on the workflows people repeat every day.",
+    "slug": "brand-identity",
+    "title": "Brand Identity & Visual Systems",
+    "icon": "ri-palette-line",
+    "short": "Cohesive visual identities, distinctive marks, and rigorous brand guidelines.",
+    "description": "I create comprehensive visual identities that articulate a brand's ethos with clarity and timeless elegance, from initial concept to full brand guidelines.",
     "deliverables": [
-      "Technical discovery and scope",
-      "Application architecture",
-      "Responsive UI implementation",
-      "API and database integration",
-      "Testing and deployment support"
+      "Logo design, monograms & wordmarks",
+      "Color strategy & typographic hierarchy",
+      "Comprehensive brand identity guidelines",
+      "Stationery & corporate collateral suites",
+      "Digital token implementation in Figma"
     ],
-    "bestFor": "Teams with a defined product idea that need a dependable build partner.",
+    "bestFor": "Founders and creative teams seeking an enduring, bespoke brand presence.",
     "featured": true
   },
   {
-    "slug": "frontend-engineering",
-    "title": "Frontend engineering & design systems",
+    "slug": "editorial-print-design",
+    "title": "Editorial & Publication Design",
+    "icon": "ri-book-open-line",
+    "short": "Thoughtfully crafted books, magazines, monographs, and annual reports.",
+    "description": "Rooted in Swiss modernist grid traditions, I design editorial layouts where pacing, white space, and typography collaborate to tell compelling stories.",
+    "deliverables": [
+      "Publication layout & grid architecture",
+      "Typography styling & micro-typesetting",
+      "Exhibition catalogues & art monographs",
+      "Annual reports & editorial lookbooks",
+      "Prepress file preparation & proofing"
+    ],
+    "bestFor": "Publishers, cultural organizations, and brands producing thoughtful print media.",
+    "featured": true
+  },
+  {
+    "slug": "packaging-structural",
+    "title": "Packaging & Structural Design",
+    "icon": "ri-box-3-line",
+    "short": "Tactile packaging, unboxing experiences, and sustainable production specs.",
+    "description": "From primary labels to secondary cartons, I craft packaging experiences that command shelf presence and delight users during the unboxing ritual.",
+    "deliverables": [
+      "Dieline design & structural prototyping",
+      "Label typography & regulatory layouts",
+      "Sustainable material specification",
+      "Specialty finish mapping (foil, blind deboss)",
+      "Production-ready print mechanicals"
+    ],
+    "bestFor": "Direct-to-consumer goods, specialty coffee, organic skincare, and boutique retail.",
+    "featured": true
+  },
+  {
+    "slug": "digital-art-direction",
+    "title": "Digital Art Direction & Visual Systems",
     "icon": "ri-layout-4-line",
-    "short": "Accessible interfaces and reusable components that stay coherent as products grow.",
-    "description": "From a new marketing site to a complex product interface, I turn design intent into semantic, responsive frontend code with patterns the whole team can reuse.",
+    "short": "Translating physical craft and typographic sensibility into digital environments.",
+    "description": "I translate brand ethos into screen spaces, establishing visual rhythm, layout systems, and photography art direction that feel authentic and elevated.",
     "deliverables": [
-      "Component architecture",
-      "Design token implementation",
-      "Accessible responsive layouts",
-      "Interaction and state design",
-      "Storybook or pattern documentation"
+      "Digital art direction & moodboards",
+      "Component styling & visual design in Figma",
+      "Editorial digital storytelling layouts",
+      "Photography & visual asset direction",
+      "Interactive style guides & brand bibles"
     ],
-    "bestFor": "Product teams outgrowing ad-hoc styles or preparing for a design-system investment.",
-    "featured": true
-  },
-  {
-    "slug": "api-database-design",
-    "title": "API & database design",
-    "icon": "ri-database-2-line",
-    "short": "Predictable APIs and data models designed around the access patterns that matter.",
-    "description": "I design and implement APIs and relational data models that are straightforward to consume, test, and operate, with attention to migrations and long-term change.",
-    "deliverables": [
-      "Data model and schema review",
-      "REST or GraphQL API design",
-      "Authentication and permissions",
-      "Migration planning",
-      "Integration documentation"
-    ],
-    "bestFor": "Products with growing data complexity or teams untangling an overloaded backend.",
-    "featured": true
-  },
-  {
-    "slug": "performance-seo",
-    "title": "Performance & technical SEO",
-    "icon": "ri-speed-up-line",
-    "short": "Faster pages and crawlable foundations, measured against real user conditions.",
-    "description": "I audit and improve loading performance, rendering stability, metadata, and crawlability, then verify the changes with before-and-after measurements.",
-    "deliverables": [
-      "Performance audit",
-      "Core Web Vitals remediation",
-      "Technical SEO review",
-      "Structured data implementation",
-      "Measurement checklist"
-    ],
-    "bestFor": "Sites that look fine but feel slow, or content sites that are not being discovered.",
+    "bestFor": "Brands desiring a seamless aesthetic bridge between print collateral and digital touchpoints.",
     "featured": false
   },
   {
-    "slug": "accessibility-audit",
-    "title": "Accessibility audits & remediation",
-    "icon": "ri-accessible-line",
-    "short": "Practical accessibility improvements, prioritized by user impact.",
-    "description": "I review interfaces against WCAG 2.2 AA, test with keyboard and assistive technology, and deliver a prioritized plan with implementation support rather than a generic checklist.",
+    "slug": "typography-custom-lettering",
+    "title": "Typography & Custom Lettering",
+    "icon": "ri-font-size-2",
+    "short": "Custom typographic marks, headline lettering, and precise font pairings.",
+    "description": "Typography is the foundation of graphic expression. I craft bespoke wordmarks, optical weight refinements, and harmonious multi-lingual typographic pairings.",
     "deliverables": [
-      "Keyboard and screen-reader review",
-      "Contrast and motion checks",
-      "Prioritized issue report",
-      "Component-level remediation",
-      "Team handoff notes"
+      "Custom wordmarks & optical tuning",
+      "Headline lettering & poster treatments",
+      "Type pairing & scale systems",
+      "Editorial display glyph design",
+      "Typography licensing consultation"
     ],
-    "bestFor": "Teams preparing for procurement requirements or wanting a genuinely usable product.",
+    "bestFor": "Campaigns, festivals, and publications requiring an unmistakable typographic voice.",
     "featured": false
   },
   {
-    "slug": "maintenance-support",
-    "title": "Maintenance & ongoing support",
-    "icon": "ri-tools-line",
-    "short": "Steady improvements, dependency care, and a reliable partner after launch.",
-    "description": "Launch is not the end. I help teams keep dependencies current, fix the right bugs, improve rough edges, and plan the next round of product work.",
+    "slug": "print-production-consulting",
+    "title": "Print Production & Material Craft",
+    "icon": "ri-printer-line",
+    "short": "Paper stock selection, specialty finishes, press checks, and artisanal binding.",
+    "description": "Great print design relies on tangible craftsmanship. I collaborate directly with master printers and paper merchants to ensure impeccable execution on the press.",
     "deliverables": [
-      "Monthly maintenance window",
-      "Bug triage and fixes",
-      "Dependency and security updates",
-      "Small feature delivery",
-      "Technical planning notes"
+      "Paper merchant stock curation (Fedrigoni, Mohawk)",
+      "Hot foil stamping & embossing guidance",
+      "Pantone spot color separation & ink testing",
+      "Binding specifications (Swiss, exposed Smyth sewn)",
+      "On-site press checks & quality review"
     ],
-    "bestFor": "Small teams with a live product but no dedicated full-time engineer.",
+    "bestFor": "Agencies, studios, and luxury brands that demand flawless physical production quality.",
     "featured": false
   }
 ]

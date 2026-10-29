@@ -4,7 +4,7 @@ export function demoBadge(label = 'Sample') {
   return `<span class="badge badge--demo">${escapeHTML(label)}</span>`;
 }
 
-export function chipList(items, label = 'Technologies') {
+export function chipList(items, label = 'Disciplines') {
   if (!Array.isArray(items) || !items.length) return '';
   return `<ul class="chip-list" aria-label="${escapeAttr(label)}">${items
     .map((item) => `<li class="chip">${escapeHTML(item)}</li>`)
@@ -23,11 +23,11 @@ export function projectCard(project, index = 0) {
         <div class="project-card__meta">
           <span>${escapeHTML(project.year)}</span>
           <span class="meta-dot" aria-hidden="true"></span>
-          ${demoBadge('Sample project')}
+          ${demoBadge(project.category || 'Case Study')}
         </div>
         <h3 class="project-card__title"><a href="${url}">${escapeHTML(project.title)}</a></h3>
         <p class="project-card__summary">${escapeHTML(project.summary)}</p>
-        ${chipList(project.tech.slice(0, 4))}
+        ${chipList(project.tech.slice(0, 4), 'Disciplines')}
         <a class="link-arrow" href="${url}">View case study <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
       </div>
     </article>`;

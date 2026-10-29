@@ -1,211 +1,211 @@
 {
-  "note": "Proficiency levels are self-assessed and reflect the kind of work represented in this demo portfolio. They are not formal certifications.",
+  "note": "Proficiency levels reflect studio experience and craft depth across brand identity, editorial design, and print production.",
   "groups": [
     {
-      "title": "Frontend engineering",
-      "icon": "ri-code-s-slash-line",
-      "description": "Semantic, responsive interfaces with a strong emphasis on accessibility and maintainable component structure.",
+      "title": "Brand & Visual Identity",
+      "icon": "ri-palette-line",
+      "description": "Comprehensive identity systems: distinctive logomarks, typography hierarchies, color theory, and modular brand architectures.",
       "items": [
         {
-          "name": "HTML & CSS",
-          "level": 95
+          "name": "Brand Identity Systems",
+          "level": 96
         },
         {
-          "name": "JavaScript",
-          "level": 95
+          "name": "Logotype & Monogram Design",
+          "level": 94
         },
         {
-          "name": "TypeScript",
+          "name": "Brand Guidelines & Style Guides",
+          "level": 92
+        },
+        {
+          "name": "Color Strategy & Harmony",
+          "level": 90
+        },
+        {
+          "name": "Visual Asset Toolkits",
           "level": 88
         },
         {
-          "name": "React",
-          "level": 90
-        },
-        {
-          "name": "Vue.js",
-          "level": 82
-        },
-        {
-          "name": "Tailwind CSS",
-          "level": 90
+          "name": "Stationery & Collateral",
+          "level": 95
         }
       ]
     },
     {
-      "title": "Backend & APIs",
-      "icon": "ri-server-line",
-      "description": "Product-focused server work: predictable APIs, sensible data boundaries, and code that is easy to operate.",
+      "title": "Editorial & Typography",
+      "icon": "ri-book-open-line",
+      "description": "Editorial craft rooted in Swiss modernist grid traditions, meticulous typesetting, and publication layout.",
       "items": [
         {
-          "name": "Node.js",
-          "level": 85
+          "name": "Editorial Layout & Pacing",
+          "level": 94
         },
         {
-          "name": "PHP / Laravel",
-          "level": 80
+          "name": "Grid Systems & Proportions",
+          "level": 95
         },
         {
-          "name": "REST APIs",
+          "name": "Micro-Typography & Kerning",
+          "level": 92
+        },
+        {
+          "name": "Book & Monograph Design",
           "level": 88
         },
         {
-          "name": "GraphQL",
-          "level": 75
-        },
-        {
-          "name": "Authentication",
-          "level": 82
+          "name": "Magazine & Periodical Layout",
+          "level": 86
         }
       ]
     },
     {
-      "title": "Data & storage",
-      "icon": "ri-database-2-line",
-      "description": "Relational modeling, query tuning, and choosing storage that fits the access pattern rather than the trend.",
+      "title": "Packaging & Physical Media",
+      "icon": "ri-box-3-line",
+      "description": "Tactile packaging, dieline drafting, sustainable substrate selection, and structural unboxing design.",
       "items": [
         {
-          "name": "MySQL",
+          "name": "Dieline Drafting & Prototyping",
+          "level": 88
+        },
+        {
+          "name": "Label Design & Regulatory Layouts",
+          "level": 92
+        },
+        {
+          "name": "Sustainable Material Specs",
           "level": 85
         },
         {
-          "name": "PostgreSQL",
-          "level": 80
-        },
-        {
-          "name": "MongoDB",
-          "level": 75
-        },
-        {
-          "name": "Redis",
-          "level": 72
-        },
-        {
-          "name": "Prisma",
-          "level": 78
-        }
-      ]
-    },
-    {
-      "title": "Cloud & delivery",
-      "icon": "ri-cloud-line",
-      "description": "Practical deployment, observability, and automation for small product teams without overbuilding infrastructure.",
-      "items": [
-        {
-          "name": "Git & GitHub",
+          "name": "Specialty Finishes (Foil & Deboss)",
           "level": 90
         },
         {
-          "name": "Docker",
-          "level": 76
-        },
-        {
-          "name": "AWS",
-          "level": 72
-        },
-        {
-          "name": "Google Cloud",
-          "level": 70
-        },
-        {
-          "name": "CI / CD",
-          "level": 78
+          "name": "3D Package Visualization",
+          "level": 82
         }
       ]
     },
     {
-      "title": "Design & UX",
-      "icon": "ri-layout-4-line",
-      "description": "Interface design grounded in content, interaction states, and the realities of implementation.",
+      "title": "Print Production & Prepress",
+      "icon": "ri-printer-line",
+      "description": "Rigorous prepress engineering, spot color separation, paper stock curation, and bindery craft.",
       "items": [
         {
-          "name": "UI design",
-          "level": 85
+          "name": "Prepress & CMYK Separation",
+          "level": 95
         },
         {
-          "name": "Design systems",
-          "level": 82
+          "name": "Pantone Matching System (PMS)",
+          "level": 92
         },
         {
-          "name": "Figma",
+          "name": "Paper Stock Selection",
+          "level": 94
+        },
+        {
+          "name": "Bindery & Finishing Specs",
           "level": 86
         },
         {
-          "name": "Prototyping",
-          "level": 80
-        },
-        {
-          "name": "Accessibility",
-          "level": 88
+          "name": "Press Checks & Color Proofing",
+          "level": 90
         }
       ]
     },
     {
-      "title": "Quality & performance",
-      "icon": "ri-speed-up-line",
-      "description": "Testing, measurement, and performance work treated as part of the feature rather than a final cleanup pass.",
+      "title": "Digital Direction & Systems",
+      "icon": "ri-layout-4-line",
+      "description": "Bringing graphic sensibility into digital interfaces, responsive design systems, and design tokens.",
       "items": [
         {
-          "name": "Web performance",
-          "level": 84
+          "name": "Figma Design Systems",
+          "level": 92
         },
         {
-          "name": "Technical SEO",
-          "level": 80
+          "name": "Digital Art Direction",
+          "level": 90
         },
         {
-          "name": "Jest / Vitest",
-          "level": 80
-        },
-        {
-          "name": "Playwright",
-          "level": 75
-        },
-        {
-          "name": "Lighthouse",
+          "name": "Interactive Storytelling Layouts",
           "level": 85
+        },
+        {
+          "name": "Design Tokens & Typographic Scales",
+          "level": 88
+        },
+        {
+          "name": "Campaign Visual Rollouts",
+          "level": 89
+        }
+      ]
+    },
+    {
+      "title": "Creative Direction & Art Craft",
+      "icon": "ri-quill-pen-line",
+      "description": "Conceptual direction, image making, photo shoot supervision, and poster art.",
+      "items": [
+        {
+          "name": "Creative Direction",
+          "level": 90
+        },
+        {
+          "name": "Photo Shoot Art Direction",
+          "level": 86
+        },
+        {
+          "name": "Poster & Screenprint Design",
+          "level": 94
+        },
+        {
+          "name": "Vector Illustration & Iconography",
+          "level": 88
+        },
+        {
+          "name": "Exhibition Wayfinding Graphics",
+          "level": 82
         }
       ]
     }
   ],
   "toolbelt": [
-    "HTML5",
-    "CSS",
-    "JavaScript",
-    "TypeScript",
-    "React",
-    "Vue.js",
-    "Node.js",
-    "Laravel",
-    "PostgreSQL",
-    "MySQL",
-    "MongoDB",
-    "Redis",
-    "Prisma",
-    "Docker",
-    "Git",
+    "Adobe InDesign",
+    "Adobe Illustrator",
+    "Adobe Photoshop",
     "Figma",
-    "Storybook",
-    "Playwright",
-    "Vitest",
-    "Vite"
+    "Glyphs",
+    "Adobe After Effects",
+    "Adobe Lightroom",
+    "Procreate",
+    "FontLab",
+    "Capture One",
+    "Blender",
+    "Cinema 4D",
+    "Acrobat Pro Prepress",
+    "Pantone Color Manager",
+    "Paper Spec Curation",
+    "Enfocus PitStop",
+    "FontBase",
+    "ColorSync",
+    "Spectrophotometer",
+    "Swiss Grid Systems"
   ],
   "principles": [
     {
-      "title": "Choose boring foundations",
-      "text": "Semantic HTML, a clear data model, and a small dependency surface make everything else easier."
+      "title": "Typography carries the soul",
+      "text": "Every typographic choice conveys meaning before a single sentence is read. Hierarchy, proportion, and spacing define tone."
     },
     {
-      "title": "Measure before optimizing",
-      "text": "Performance and accessibility work starts with evidence, not a checklist of fashionable techniques."
+      "title": "Honor the physical medium",
+      "text": "Ink on cotton paper, blind debossing, and foil are tactile conversations. Design with the natural qualities of the material in mind."
     },
     {
-      "title": "Design the states",
-      "text": "Empty, loading, error, and success states are part of the interface, not an afterthought."
+      "title": "Clarity over ornamentation",
+      "text": "A thoughtful grid and deliberate white space communicate with greater resonance than arbitrary decorative clutter."
     },
     {
-      "title": "Leave a trail",
-      "text": "Good names, short documentation, and honest tests help the next person move faster."
+      "title": "Systems that scale gracefully",
+      "text": "Great brand systems provide consistent structure while granting creative teams the flexibility to express new ideas."
     }
   ]
 }

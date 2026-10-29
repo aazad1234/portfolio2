@@ -24,7 +24,6 @@ export function initTheme() {
 
   const icon = qs('[data-theme-icon]', toggle);
   const themeColor = qs('#theme-color-meta');
-  const media = window.matchMedia('(prefers-color-scheme: dark)');
 
   const applyTheme = (theme, persist = false) => {
     const normalized = theme === 'dark' ? 'dark' : 'light';
@@ -36,28 +35,17 @@ export function initTheme() {
       icon.className = normalized === 'dark' ? 'ri-sun-line' : 'ri-moon-line';
     }
     if (themeColor) {
-      themeColor.setAttribute('content', normalized === 'dark' ? '#070b14' : '#f8fafc');
+      themeColor.setAttribute('content', '#FFEAD3');
     }
     if (persist) saveTheme(normalized);
   };
 
-  applyTheme(document.documentElement.getAttribute('data-theme') || 'light');
+  // Always initialize as light (crisp white background)
+  applyTheme('light');
 
   toggle.addEventListener('click', () => {
-    const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
     applyTheme(next, true);
   });
-
-  const handleSystemTheme = (event) => {
-    const hasQueryOverride = new URLSearchParams(window.location.search).has('theme');
-    if (!storedTheme() && !hasQueryOverride) {
-      applyTheme(event.matches ? 'dark' : 'light');
-    }
-  };
-
-  if (typeof media.addEventListener === 'function') {
-    media.addEventListener('change', handleSystemTheme);
-  } else if (typeof media.addListener === 'function') {
-    media.addListener(handleSystemTheme);
-  }
 }

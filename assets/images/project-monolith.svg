@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title-monolith desc-monolith">
+  <title id="title-monolith">Monolith Studio Architectural Brand Identity</title>
+  <desc id="desc-monolith">Brutalist and minimalist architectural branding, foil debossed business stationery, and hardbound portfolio in crisp white and forest green.</desc>
+  <defs>
+    <filter id="mono-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Crisp Light Canvas -->
+  <rect width="1200" height="800" fill="#f8fafc"/>
+  <rect x="2" y="2" width="1196" height="796" rx="4" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Left: Hardbound Architecture Monograph Book in Rich Forest Green -->
+  <g transform="translate(160, 110)" filter="url(#mono-shadow)">
+    <!-- Book Cloth Cover -->
+    <rect x="0" y="0" width="410" height="580" rx="8" fill="#23150D" stroke="#B8502E" stroke-width="2"/>
+    <!-- Cloth Spine Effect -->
+    <rect x="0" y="0" width="36" height="580" rx="4" fill="#021f0e"/>
+
+    <!-- Foil Debossed Geometric Pattern in Emerald & White -->
+    <rect x="100" y="140" width="230" height="230" fill="none" stroke="#FDBA74" stroke-width="2"/>
+    <line x1="100" y1="255" x2="330" y2="255" stroke="#FDBA74" stroke-width="1.5"/>
+    <line x1="215" y1="140" x2="215" y2="370" stroke="#FDBA74" stroke-width="1.5"/>
+    <circle cx="215" cy="255" r="50" fill="none" stroke="#ffffff" stroke-width="2"/>
+
+    <!-- Foil Stamped Title -->
+    <text x="100" y="440" font-family="'Bricolage Grotesque', sans-serif" font-size="34" font-weight="800" fill="#ffffff" letter-spacing="4">MONOLITH</text>
+    <text x="100" y="475" font-family="'Bricolage Grotesque', sans-serif" font-size="13" font-weight="600" fill="#FDBA74" letter-spacing="3">ARCHITECTURAL WORKS</text>
+    <text x="100" y="505" font-family="'Bricolage Grotesque', sans-serif" font-size="11" font-weight="500" fill="#a7f3d0">VOL. I / RESIDENTIAL FORMS</text>
+  </g>
+
+  <!-- Right: Pure White Cotton Letterhead & Debossed Cards -->
+  <g transform="translate(630, 130)" filter="url(#mono-shadow)">
+    <!-- A4 Cotton Letterhead -->
+    <rect x="0" y="0" width="410" height="380" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="40" y="55" font-family="'Bricolage Grotesque', sans-serif" font-size="20" font-weight="800" fill="#0f172a" letter-spacing="2">MONOLITH</text>
+    <text x="40" y="78" font-family="'Bricolage Grotesque', sans-serif" font-size="10" font-weight="700" fill="#D46743" letter-spacing="1">STUDIO FOR ARCHITECTURE</text>
+    <text x="310" y="55" font-family="'Bricolage Grotesque', sans-serif" font-size="10" font-weight="500" fill="#64748b">SAN FRANCISCO</text>
+    <line x1="40" y1="92" x2="370" y2="92" stroke="#0f172a" stroke-width="1.5"/>
+
+    <!-- Architectural Proposal Body Mock -->
+    <rect x="40" y="125" width="310" height="10" rx="2" fill="#0f172a" fill-opacity="0.8"/>
+    <rect x="40" y="150" width="290" height="6" rx="1" fill="#94a3b8" fill-opacity="0.6"/>
+    <rect x="40" y="165" width="300" height="6" rx="1" fill="#94a3b8" fill-opacity="0.6"/>
+    <rect x="40" y="180" width="260" height="6" rx="1" fill="#94a3b8" fill-opacity="0.6"/>
+    <rect x="40" y="195" width="280" height="6" rx="1" fill="#94a3b8" fill-opacity="0.6"/>
+
+    <!-- Business Card Overlaid in Crisp White with Green Accent Border -->
+    <g transform="translate(110, 235)" filter="url(#mono-shadow)">
+      <rect x="0" y="0" width="290" height="175" rx="8" fill="#ffffff" stroke="#D46743" stroke-width="2"/>
+      <rect x="0" y="0" width="8" height="175" rx="4" fill="#D46743"/>
+      <text x="35" y="48" font-family="'Bricolage Grotesque', sans-serif" font-size="18" font-weight="800" fill="#0f172a" letter-spacing="2">MONOLITH</text>
+      <text x="35" y="100" font-family="'Bricolage Grotesque', sans-serif" font-size="14" font-weight="700" fill="#0f172a">JULIAN VANCE</text>
+      <text x="35" y="122" font-family="'Bricolage Grotesque', sans-serif" font-size="11" font-weight="600" fill="#D46743">PRINCIPAL ARCHITECT</text>
+      <text x="35" y="148" font-family="'Bricolage Grotesque', sans-serif" font-size="10" font-weight="500" fill="#64748b">INFO@MONOLITH-STUDIO.COM</text>
+    </g>
+  </g>
+</svg>

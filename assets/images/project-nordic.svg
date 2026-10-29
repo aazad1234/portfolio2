@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title-nordic desc-nordic">
+  <title id="title-nordic">Nordic Roastery Packaging &amp; Typeface Design</title>
+  <desc id="desc-nordic">Specialty coffee packaging bag and minimalist Scandinavian brand identity in crisp white and deep forest green.</desc>
+  <defs>
+    <filter id="nor-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="6" dy="16" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Crisp Light Canvas -->
+  <rect width="1200" height="800" fill="#f8fafc"/>
+  <rect x="2" y="2" width="1196" height="796" rx="4" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Left: Stand-Up Coffee Pouch Packaging Mockup -->
+  <g transform="translate(180, 110)" filter="url(#nor-shadow)">
+    <!-- Crisp White Matte Paper Coffee Bag -->
+    <path d="M50 40 L330 40 L350 560 L30 560 Z" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <!-- Folded Top Seal in Dark Slate -->
+    <rect x="40" y="30" width="300" height="25" rx="4" fill="#0f172a"/>
+    <line x1="60" y1="42" x2="320" y2="42" stroke="#D46743" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+    <!-- Forest Green Label Card on Bag -->
+    <rect x="80" y="120" width="220" height="360" rx="8" fill="#23150D"/>
+    <!-- Emerald Geometric Monogram -->
+    <circle cx="190" cy="190" r="38" fill="none" stroke="#D46743" stroke-width="2.5"/>
+    <polygon points="190,165 215,210 165,210" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <text x="190" y="260" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="24" font-weight="800" fill="#ffffff" letter-spacing="3">NORDIC</text>
+    <text x="190" y="285" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="11" font-weight="600" fill="#FDBA74" letter-spacing="2">SINGLE ORIGIN ROAST</text>
+
+    <!-- Specific Coffee Origin Details -->
+    <line x1="105" y1="310" x2="275" y2="310" stroke="#B8502E" stroke-width="1"/>
+    <text x="110" y="340" font-family="'Bricolage Grotesque', sans-serif" font-size="10" font-weight="700" fill="#FDBA74">ORIGIN:</text>
+    <text x="190" y="340" font-family="'Bricolage Grotesque', sans-serif" font-size="11" font-weight="600" fill="#ffffff">Yirgacheffe, Eth.</text>
+    <text x="110" y="370" font-family="'Bricolage Grotesque', sans-serif" font-size="10" font-weight="700" fill="#FDBA74">PROCESS:</text>
+    <text x="190" y="370" font-family="'Bricolage Grotesque', sans-serif" font-size="11" font-weight="600" fill="#ffffff">Washed Natural</text>
+    <text x="110" y="400" font-family="'Bricolage Grotesque', sans-serif" font-size="10" font-weight="700" fill="#FDBA74">NOTES:</text>
+    <text x="190" y="400" font-family="'Bricolage Grotesque', sans-serif" font-size="11" font-weight="600" fill="#ffffff">Bergamot &amp; Honey</text>
+    <line x1="105" y1="425" x2="275" y2="425" stroke="#B8502E" stroke-width="1"/>
+    <text x="190" y="455" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="11" font-weight="700" fill="#ffffff">250G WHOLE BEAN</text>
+  </g>
+
+  <!-- Right: Custom Typeface Specimen & Menu Board in Pure White -->
+  <g transform="translate(600, 130)" filter="url(#nor-shadow)">
+    <rect x="0" y="0" width="440" height="520" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="50" y="60" font-family="'Bricolage Grotesque', sans-serif" font-size="12" font-weight="800" fill="#D46743" letter-spacing="2">BESPOKE TYPE SPECIMEN</text>
+    <text x="50" y="110" font-family="'Bricolage Grotesque', sans-serif" font-size="34" font-weight="800" fill="#0f172a" letter-spacing="-1">Nordic Grotesk</text>
+    <text x="50" y="135" font-family="'Bricolage Grotesque', sans-serif" font-size="13" font-weight="500" fill="#64748b">Geometric Sans with Optical Ink Traps</text>
+
+    <!-- Large Character Grid -->
+    <g transform="translate(50, 160)">
+      <rect x="0" y="0" width="70" height="70" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="35" y="48" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="36" font-weight="800" fill="#0f172a">Aa</text>
+
+      <rect x="85" y="0" width="70" height="70" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="120" y="48" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="36" font-weight="800" fill="#0f172a">Gg</text>
+
+      <rect x="170" y="0" width="70" height="70" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="205" y="48" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="36" font-weight="800" fill="#0f172a">Rr</text>
+
+      <rect x="255" y="0" width="70" height="70" rx="6" fill="#0f172a"/>
+      <text x="290" y="48" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="36" font-weight="800" fill="#D46743">&amp;</text>
+    </g>
+
+    <text x="50" y="275" font-family="'Bricolage Grotesque', sans-serif" font-size="18" font-weight="700" fill="#0f172a">THE QUICK BROWN FOX</text>
+    <text x="50" y="305" font-family="'Bricolage Grotesque', sans-serif" font-size="18" font-weight="300" fill="#D46743">JUMPS OVER LAZY DOG</text>
+    <text x="50" y="335" font-family="'Bricolage Grotesque', sans-serif" font-size="15" font-weight="600" fill="#64748b">1234567890 (.,:;!?@#$€£)</text>
+
+    <!-- Retail Takeaway Cup Simulation -->
+    <g transform="translate(50, 360)">
+      <rect x="0" y="0" width="340" height="110" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+      <circle cx="60" cy="55" r="30" fill="#D46743"/>
+      <text x="60" y="63" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="20" font-weight="800" fill="#ffffff">N</text>
+      <text x="110" y="50" font-family="'Bricolage Grotesque', sans-serif" font-size="15" font-weight="700" fill="#0f172a">Retail Cups &amp; Trays</text>
+      <text x="110" y="72" font-family="'Bricolage Grotesque', sans-serif" font-size="12" font-weight="500" fill="#D46743">100% Compostable Bagasse Board</text>
+    </g>
+  </g>
+</svg>

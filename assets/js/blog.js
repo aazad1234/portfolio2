@@ -170,7 +170,7 @@ function articleHero(post, authorName) {
             <img src="assets/images/portrait.jpg" alt="${escapeAttr(authorName)}" width="512" height="512" loading="eager" decoding="async">
             <span>
               <strong>${escapeHTML(authorName)}</strong>
-              <span>Full Stack Developer</span>
+              <span>Graphic Designer &amp; Art Director</span>
             </span>
           </div>
           <div class="article-actions">
@@ -211,7 +211,7 @@ function articleLayout(post) {
             <div>
               <p class="eyebrow">About the author</p>
               <h2>John Anderson</h2>
-              <p>Full stack developer focused on fast, accessible, and maintainable web products. This article is sample content for the portfolio.</p>
+              <p>Graphic designer and art director specializing in brand identity, Swiss grid typography, publication design, and sustainable packaging systems.</p>
               <a class="link-arrow" href="about.html">More about John <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
             </div>
           </div>

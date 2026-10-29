@@ -119,7 +119,7 @@ function personNode() {
     '@type': 'Person',
     '@id': `${base}/#person`,
     name: cachedConfig?.brand?.name || 'John Anderson',
-    jobTitle: cachedConfig?.brand?.role || 'Full Stack Developer',
+    jobTitle: cachedConfig?.brand?.role || 'Graphic Designer & Art Director',
     url: `${base}/`
   };
 }

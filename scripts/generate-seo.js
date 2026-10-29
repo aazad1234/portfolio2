@@ -70,7 +70,7 @@ function buildSchema({ base, config, meta, canonical, skills }) {
     '@type': 'Person',
     '@id': personId,
     name: config.brand?.name || 'John Anderson',
-    jobTitle: config.brand?.role || 'Full Stack Developer',
+    jobTitle: config.brand?.role || 'Graphic Designer & Art Director',
     description: config.brand?.shortBio || '',
     url: `${base}/`
   };
@@ -164,9 +164,8 @@ function buildHeadBlock({ base, config, meta, page, skills }) {
   }
   lines.push(metaTag('name', 'robots', meta.robots || 'index,follow'));
   lines.push(metaTag('name', 'author', config.brand?.name || 'John Anderson'));
-  lines.push('<meta name="theme-color" content="#f7f9fd" media="(prefers-color-scheme: light)">');
-  lines.push('<meta name="theme-color" content="#070c15" media="(prefers-color-scheme: dark)">');
-  lines.push('<meta name="color-scheme" content="light dark">');
+  lines.push('<meta name="theme-color" content="#FFEAD3">');
+  lines.push('<meta name="color-scheme" content="light">');
   if (canonical) lines.push(`<link rel="canonical" href="${escapeHTML(canonical)}">`);
 
   lines.push(metaTag('property', 'og:title', meta.ogTitle || meta.title));

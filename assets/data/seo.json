@@ -1,21 +1,23 @@
 {
   "index.html": {
-    "title": "John Anderson | Full Stack Developer Portfolio",
-    "description": "John Anderson is a San Francisco-based full stack developer building fast, accessible web products with React, Node.js, Laravel, and thoughtful UI design.",
+    "title": "John Anderson | Graphic Designer & Art Director Portfolio",
+    "description": "Explore the portfolio of John Anderson: brand identity systems, bespoke editorial publications, tactile packaging, and typographic craft.",
     "keywords": [
       "John Anderson",
-      "full stack developer",
-      "web developer portfolio",
-      "React developer",
-      "San Francisco developer"
+      "graphic designer portfolio",
+      "art director",
+      "brand identity designer",
+      "editorial design",
+      "packaging design",
+      "typography"
     ],
     "canonicalPath": "",
     "robots": "index,follow",
-    "ogTitle": "John Anderson | Full Stack Developer Portfolio",
-    "ogDescription": "Explore the portfolio of John Anderson: full stack development, UI/UX craft, and dependable digital products.",
+    "ogTitle": "John Anderson | Graphic Designer & Art Director Portfolio",
+    "ogDescription": "Explore the portfolio of John Anderson: brand identity systems, bespoke editorial publications, tactile packaging, and typographic craft.",
     "ogType": "website",
     "ogImage": "assets/images/og-image.png",
-    "ogImageAlt": "John Anderson, full stack developer",
+    "ogImageAlt": "John Anderson, graphic designer and art director",
     "twitterCard": "summary_large_image",
     "pageType": "ProfilePage",
     "breadcrumb": [],
@@ -24,21 +26,21 @@
     "priority": 1
   },
   "about.html": {
-    "title": "About John Anderson | Developer, Designer & Problem Solver",
-    "description": "Learn how John Anderson approaches full stack development: clear architecture, accessible interfaces, and maintainable code built for real people.",
+    "title": "About John Anderson | Graphic Designer & Art Director",
+    "description": "Learn about John Anderson's design practice: rooted in Swiss modernist typography, sustainable print craft, and enduring brand systems.",
     "keywords": [
       "about John Anderson",
-      "full stack developer story",
-      "developer values",
-      "web development process"
+      "graphic designer biography",
+      "design philosophy",
+      "editorial design practice"
     ],
     "canonicalPath": "about.html",
     "robots": "index,follow",
-    "ogTitle": "About John Anderson | Developer & Problem Solver",
-    "ogDescription": "A closer look at how John Anderson designs, builds, and maintains thoughtful web products.",
+    "ogTitle": "About John Anderson | Graphic Designer & Art Director",
+    "ogDescription": "A closer look at John Anderson's design philosophy, studio practice, and commitment to tactile print and brand craft.",
     "ogType": "website",
     "ogImage": "assets/images/og-image.png",
-    "ogImageAlt": "John Anderson, full stack developer",
+    "ogImageAlt": "John Anderson, graphic designer",
     "twitterCard": "summary_large_image",
     "pageType": "AboutPage",
     "breadcrumb": [
@@ -51,22 +53,22 @@
     "priority": 0.8
   },
   "services.html": {
-    "title": "Web Development Services | John Anderson",
-    "description": "Full stack development, design systems, API architecture, performance optimization, accessibility, and ongoing support for ambitious web projects.",
+    "title": "Graphic Design Services | John Anderson",
+    "description": "Brand identity systems, publication and editorial design, packaging dielines, typography, and prepress art direction for ambitious brands.",
     "keywords": [
-      "web development services",
-      "full stack developer for hire",
-      "design systems",
-      "web performance",
-      "accessibility audit"
+      "graphic design services",
+      "brand identity design",
+      "editorial publication design",
+      "packaging design services",
+      "typography consultant"
     ],
     "canonicalPath": "services.html",
     "robots": "index,follow",
-    "ogTitle": "Web Development Services | John Anderson",
-    "ogDescription": "Practical development services for teams that care about quality, speed, and accessible experiences.",
+    "ogTitle": "Graphic Design Services | John Anderson",
+    "ogDescription": "Bespoke brand identities, tactile editorial publications, and sustainable packaging design services.",
     "ogType": "website",
     "ogImage": "assets/images/og-image.png",
-    "ogImageAlt": "John Anderson, full stack developer",
+    "ogImageAlt": "Graphic design services by John Anderson",
     "twitterCard": "summary_large_image",
     "pageType": "CollectionPage",
     "breadcrumb": [
@@ -79,22 +81,22 @@
     "priority": 0.9
   },
   "projects.html": {
-    "title": "Portfolio & Case Studies | John Anderson",
-    "description": "Explore sample case studies in web apps, mobile experiences, and UI/UX, including analytics, e-commerce, community, and design-system projects.",
+    "title": "Graphic Design Portfolio & Case Studies | John Anderson",
+    "description": "Explore curated graphic design case studies in brand identity, publication design, sustainable packaging, and exhibition systems.",
     "keywords": [
-      "web developer portfolio",
-      "case studies",
-      "React projects",
-      "UI UX portfolio",
-      "sample projects"
+      "graphic design portfolio",
+      "design case studies",
+      "brand identity projects",
+      "editorial book design",
+      "packaging case studies"
     ],
     "canonicalPath": "projects.html",
     "robots": "index,follow",
-    "ogTitle": "Portfolio & Case Studies | John Anderson",
-    "ogDescription": "A selection of sample product work spanning web applications, mobile experiences, and design systems.",
+    "ogTitle": "Graphic Design Portfolio & Case Studies | John Anderson",
+    "ogDescription": "A curated selection of brand identities, books, posters, and packaging suites by John Anderson.",
     "ogType": "website",
     "ogImage": "assets/images/og-image.png",
-    "ogImageAlt": "John Anderson portfolio preview",
+    "ogImageAlt": "John Anderson graphic design portfolio preview",
     "twitterCard": "summary_large_image",
     "pageType": "CollectionPage",
     "breadcrumb": [
@@ -108,20 +110,20 @@
   },
   "project-details.html": {
     "title": "Project Case Study | John Anderson",
-    "description": "A detailed look at a sample full stack project: the brief, design decisions, technical approach, and implementation details.",
+    "description": "A detailed look at a graphic design case study: conceptual brief, typographic research, substrate selection, and production results.",
     "keywords": [
-      "project case study",
-      "full stack project",
-      "web app case study",
+      "design case study",
+      "brand identity case study",
+      "packaging case study",
       "portfolio detail"
     ],
     "canonicalPath": null,
     "robots": "index,follow",
     "ogTitle": "Project Case Study | John Anderson",
-    "ogDescription": "How a sample product was shaped from brief to implementation.",
+    "ogDescription": "How a brand identity or editorial project was shaped from initial concept to tactile production.",
     "ogType": "article",
     "ogImage": "assets/images/og-image.png",
-    "ogImageAlt": "John Anderson project case study",
+    "ogImageAlt": "John Anderson design case study",
     "twitterCard": "summary_large_image",
     "pageType": "WebPage",
     "breadcrumb": [
@@ -130,31 +132,29 @@
         "href": "projects.html"
       },
       {
-        "label": "Project Details"
+        "label": "Case Study"
       }
     ],
     "sitemap": false,
     "runtimeSchema": true
   },
   "skills.html": {
-    "title": "Skills & Expertise | John Anderson",
-    "description": "A practical overview of John Anderson's skills across frontend, backend, databases, cloud, and product design, including the tools used day to day.",
+    "title": "Design Disciplines & Studio Expertise | John Anderson",
+    "description": "Graphic design disciplines spanning brand architecture, Swiss grid typography, packaging engineering, prepress, and digital art direction.",
     "keywords": [
-      "full stack skills",
-      "JavaScript",
-      "React",
-      "Node.js",
-      "Laravel",
-      "web design",
-      "developer toolbox"
+      "design skills",
+      "graphic design expertise",
+      "typography craft",
+      "prepress knowledge",
+      "brand systems"
     ],
     "canonicalPath": "skills.html",
     "robots": "index,follow",
-    "ogTitle": "Skills & Expertise | John Anderson",
-    "ogDescription": "Frontend, backend, data, cloud, and design skills built through hands-on product work.",
+    "ogTitle": "Design Disciplines & Studio Expertise | John Anderson",
+    "ogDescription": "Explore the design disciplines, typography standards, and production tools John Anderson utilizes.",
     "ogType": "website",
     "ogImage": "assets/images/og-image.png",
-    "ogImageAlt": "John Anderson skills and expertise",
+    "ogImageAlt": "John Anderson design skills and toolbelt",
     "twitterCard": "summary_large_image",
     "pageType": "WebPage",
     "breadcrumb": [
@@ -171,21 +171,21 @@
     "priority": 0.7
   },
   "experience.html": {
-    "title": "Experience & Education | John Anderson",
-    "description": "An overview of John Anderson's illustrative professional journey, core responsibilities, education, and continuous learning as a full stack developer.",
+    "title": "Studio Career & Art Direction Timeline | John Anderson",
+    "description": "A timeline of art direction roles, editorial publishing experience, typography studies at RISD, and independent studio practice.",
     "keywords": [
-      "developer experience",
-      "full stack developer resume",
-      "career timeline",
-      "web development education"
+      "graphic design experience",
+      "art director career",
+      "design studio timeline",
+      "RISD graphic design"
     ],
     "canonicalPath": "experience.html",
     "robots": "index,follow",
-    "ogTitle": "Experience & Education | John Anderson",
-    "ogDescription": "A timeline of sample roles, responsibilities, education, and ongoing learning.",
+    "ogTitle": "Studio Career & Art Direction Timeline | John Anderson",
+    "ogDescription": "A timeline of studio leadership, publication design, and visual identity projects across eight years.",
     "ogType": "website",
     "ogImage": "assets/images/og-image.png",
-    "ogImageAlt": "John Anderson experience and education",
+    "ogImageAlt": "John Anderson studio experience timeline",
     "twitterCard": "summary_large_image",
     "pageType": "WebPage",
     "breadcrumb": [
@@ -202,18 +202,18 @@
     "priority": 0.7
   },
   "testimonials.html": {
-    "title": "Client Testimonials | John Anderson",
-    "description": "Sample client feedback that demonstrates how John Anderson collaborates, communicates, and delivers thoughtful full stack web work.",
+    "title": "Collaborator Testimonials & Praise | John Anderson",
+    "description": "Feedback from creative directors, curators, founders, and publishers who have collaborated with John Anderson on identity and print.",
     "keywords": [
-      "developer testimonials",
-      "client feedback",
-      "freelance developer",
-      "collaboration"
+      "client testimonials",
+      "creative director praise",
+      "designer recommendations",
+      "collaborator feedback"
     ],
     "canonicalPath": "testimonials.html",
     "robots": "index,follow",
-    "ogTitle": "Client Testimonials | John Anderson",
-    "ogDescription": "Sample feedback from the people John Anderson has collaborated with.",
+    "ogTitle": "Collaborator Testimonials & Praise | John Anderson",
+    "ogDescription": "What creative directors, publishers, and brand founders say about collaborating with John Anderson.",
     "ogType": "website",
     "ogImage": "assets/images/og-image.png",
     "ogImageAlt": "Sample client testimonials for John Anderson",
@@ -233,22 +233,22 @@
     "priority": 0.6
   },
   "blog.html": {
-    "title": "Web Development Notes & Articles | John Anderson",
-    "description": "Practical articles on CSS architecture, progressive enhancement, accessibility, JSON content models, performance, and design-to-code workflows.",
+    "title": "Design Essays & Studio Notes | John Anderson",
+    "description": "Field notes on Swiss typography, sustainable luxury packaging, tactile print production, variable typefaces, and brand guidelines.",
     "keywords": [
-      "web development blog",
-      "CSS architecture",
-      "accessibility",
-      "web performance",
-      "progressive enhancement"
+      "graphic design blog",
+      "typography essays",
+      "sustainable packaging article",
+      "print production guide",
+      "editorial design notes"
     ],
     "canonicalPath": "blog.html",
     "robots": "index,follow",
-    "ogTitle": "Web Development Notes & Articles | John Anderson",
-    "ogDescription": "Field notes on building clear, fast, and maintainable websites.",
+    "ogTitle": "Design Essays & Studio Notes | John Anderson",
+    "ogDescription": "Practical essays and studio field notes on typography, publication craft, and sustainable brand identity.",
     "ogType": "website",
     "ogImage": "assets/images/og-image.png",
-    "ogImageAlt": "John Anderson web development blog",
+    "ogImageAlt": "John Anderson design blog and essays",
     "twitterCard": "summary_large_image",
     "pageType": "CollectionPage",
     "breadcrumb": [
@@ -261,21 +261,20 @@
     "priority": 0.8
   },
   "blog-details.html": {
-    "title": "Article | John Anderson",
-    "description": "Read a sample article on modern web development, written by full stack developer John Anderson.",
+    "title": "Design Article | John Anderson",
+    "description": "Read a field note on graphic design craft, typography, or packaging by art director John Anderson.",
     "keywords": [
-      "web development article",
-      "frontend development",
-      "accessibility",
-      "performance"
+      "graphic design essay",
+      "typography article",
+      "print craft notes"
     ],
     "canonicalPath": null,
     "robots": "index,follow",
-    "ogTitle": "Article | John Anderson",
-    "ogDescription": "Practical notes on building for the web.",
+    "ogTitle": "Design Article | John Anderson",
+    "ogDescription": "Studio notes on typography, print craft, and brand systems.",
     "ogType": "article",
     "ogImage": "assets/images/og-image.png",
-    "ogImageAlt": "John Anderson article",
+    "ogImageAlt": "John Anderson design article",
     "twitterCard": "summary_large_image",
     "pageType": "WebPage",
     "breadcrumb": [
@@ -291,21 +290,21 @@
     "runtimeSchema": true
   },
   "contact.html": {
-    "title": "Contact John Anderson | Let's Build Something Good",
-    "description": "Get in touch with John Anderson about web development projects, design systems, audits, or collaboration. This demo uses an honest email-draft fallback.",
+    "title": "Commission Work & Contact | John Anderson",
+    "description": "Inquire about visual identity projects, editorial publication design, packaging suites, or creative direction with John Anderson.",
     "keywords": [
       "contact John Anderson",
-      "hire full stack developer",
-      "freelance web developer",
-      "project inquiry"
+      "hire graphic designer",
+      "commission brand identity",
+      "book publication designer"
     ],
     "canonicalPath": "contact.html",
     "robots": "index,follow",
-    "ogTitle": "Contact John Anderson | Let's Build Something Good",
-    "ogDescription": "Have a project in mind? Start a conversation about scope, goals, and next steps.",
+    "ogTitle": "Commission Work & Contact | John Anderson",
+    "ogDescription": "Discuss an upcoming brand identity, editorial publication, or packaging commission with John Anderson.",
     "ogType": "website",
     "ogImage": "assets/images/og-image.png",
-    "ogImageAlt": "Contact John Anderson",
+    "ogImageAlt": "Contact John Anderson, graphic designer",
     "twitterCard": "summary_large_image",
     "pageType": "ContactPage",
     "breadcrumb": [
@@ -319,7 +318,7 @@
   },
   "404.html": {
     "title": "Page Not Found | John Anderson",
-    "description": "The page you are looking for does not exist. Explore the portfolio, projects, and contact pages instead.",
+    "description": "The page you are looking for does not exist. Explore the graphic design portfolio, projects, and contact pages instead.",
     "keywords": [
       "404",
       "page not found"
@@ -327,7 +326,7 @@
     "canonicalPath": null,
     "robots": "noindex,follow",
     "ogTitle": "Page Not Found | John Anderson",
-    "ogDescription": "That page seems to have moved. Explore the portfolio instead.",
+    "ogDescription": "That page seems to have moved. Explore the graphic design portfolio instead.",
     "ogType": "website",
     "ogImage": "assets/images/og-image.png",
     "ogImageAlt": "John Anderson portfolio",
@@ -337,16 +336,17 @@
     "sitemap": false
   },
   "resume.html": {
-    "title": "Resume | John Anderson",
-    "description": "A printable resume for full stack developer John Anderson. This is demonstration content.",
+    "title": "Curriculum Vitae | John Anderson",
+    "description": "Printable curriculum vitae for graphic designer and art director John Anderson. Details studio history, awards, and education.",
     "keywords": [
-      "John Anderson resume",
-      "full stack developer resume"
+      "John Anderson CV",
+      "graphic designer resume",
+      "art director CV"
     ],
     "canonicalPath": "resume.html",
     "robots": "noindex,follow",
-    "ogTitle": "Resume | John Anderson",
-    "ogDescription": "Printable sample resume for full stack developer John Anderson.",
+    "ogTitle": "Curriculum Vitae | John Anderson",
+    "ogDescription": "Printable curriculum vitae for graphic designer and art director John Anderson.",
     "ogType": "website",
     "ogImage": "assets/images/og-image.png",
     "ogImageAlt": "John Anderson resume",

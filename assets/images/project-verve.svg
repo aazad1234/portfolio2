@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title-verve desc-verve">
+  <title id="title-verve">Verve Motion Studio Dynamic Brand Identity</title>
+  <desc id="desc-verve">Kinetic brand system, dynamic typography, and digital visual direction in crisp white and vivid emerald green.</desc>
+  <defs>
+    <linearGradient id="ver-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D46743"/>
+      <stop offset="100%" stop-color="#D46743"/>
+    </linearGradient>
+    <filter id="ver-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Crisp Light Canvas -->
+  <rect width="1200" height="800" fill="#f8fafc"/>
+  <rect x="2" y="2" width="1196" height="796" rx="4" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Central Presentation Stage in Crisp White -->
+  <g transform="translate(160, 110)" filter="url(#ver-shadow)">
+    <!-- Device Frame -->
+    <rect x="0" y="0" width="880" height="580" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- App / Canvas Header -->
+    <rect x="0" y="0" width="880" height="60" rx="20" fill="#f8fafc"/>
+    <circle cx="35" cy="30" r="6" fill="#D46743"/>
+    <circle cx="55" cy="30" r="6" fill="#D46743"/>
+    <circle cx="75" cy="30" r="6" fill="#FED7AA"/>
+    <text x="440" y="36" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="12" font-weight="700" fill="#0f172a" letter-spacing="1.5">VERVE MOTION DESIGN SYSTEM — 3D &amp; BRAND GUIDELINES</text>
+
+    <!-- Main Stage Content -->
+    <!-- Left Column: Variable Kinetic Glyph -->
+    <rect x="50" y="100" width="360" height="430" rx="14" fill="#0f172a"/>
+    <!-- Animated Curved Ribbon Vector in Vibrant Green -->
+    <path d="M100 420 C100 260 220 180 340 180 C260 280 200 350 350 440" fill="none" stroke="url(#ver-grad)" stroke-width="32" stroke-linecap="round"/>
+    <circle cx="230" cy="315" r="30" fill="#ffffff"/>
+    <text x="230" y="475" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="28" font-weight="800" fill="#ffffff" letter-spacing="3">VERVE</text>
+    <text x="230" y="500" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="11" font-weight="600" fill="#FDBA74" letter-spacing="2">KINETIC STUDIO</text>
+
+    <!-- Right Side: Motion Matrix Panels in Pure White -->
+    <!-- Panel 1: Keyframe Pacing -->
+    <rect x="440" y="100" width="390" height="195" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="470" y="140" font-family="'Bricolage Grotesque', sans-serif" font-size="15" font-weight="800" fill="#0f172a">Kinetic Pacing &amp; Easing Curves</text>
+    <text x="470" y="165" font-family="'Bricolage Grotesque', sans-serif" font-size="12" font-weight="500" fill="#64748b">Bezier interpolation specs for broadcast and web.</text>
+    <!-- Easing Curve Graph -->
+    <path d="M470 250 C540 250 560 190 790 190" fill="none" stroke="#D46743" stroke-width="3"/>
+    <circle cx="470" cy="250" r="6" fill="#D46743"/>
+    <circle cx="790" cy="190" r="6" fill="#D46743"/>
+    <line x1="470" y1="260" x2="790" y2="260" stroke="#f1f5f9" stroke-width="1"/>
+
+    <!-- Panel 2: Typographic Weight Spectrum -->
+    <rect x="440" y="315" width="390" height="215" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="470" y="355" font-family="'Bricolage Grotesque', sans-serif" font-size="15" font-weight="800" fill="#0f172a">Variable Font Weight Spectrum</text>
+    <text x="470" y="390" font-family="'Bricolage Grotesque', sans-serif" font-size="22" font-weight="300" fill="#0f172a">Verve Light 300</text>
+    <text x="470" y="425" font-family="'Bricolage Grotesque', sans-serif" font-size="22" font-weight="600" fill="#D46743">Verve Medium 600</text>
+    <text x="470" y="460" font-family="'Bricolage Grotesque', sans-serif" font-size="22" font-weight="900" fill="#0f172a">Verve Black 900</text>
+    <rect x="470" y="485" width="90" height="24" rx="4" fill="#FFF5EA" stroke="#FED7AA"/>
+    <text x="515" y="501" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="10" font-weight="700" fill="#D46743">RGB / CMYK</text>
+  </g>
+</svg>

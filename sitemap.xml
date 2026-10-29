@@ -46,68 +46,68 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://johnanderson.dev/project-details.html?slug=analytics-dashboard</loc>
+    <loc>https://johnanderson.dev/project-details.html?slug=aura-botanicals</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://johnanderson.dev/project-details.html?slug=northline-shop</loc>
+    <loc>https://johnanderson.dev/project-details.html?slug=kvadrat-quarterly</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://johnanderson.dev/project-details.html?slug=common-ground</loc>
+    <loc>https://johnanderson.dev/project-details.html?slug=solstice-festival</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://johnanderson.dev/project-details.html?slug=nova-design-system</loc>
+    <loc>https://johnanderson.dev/project-details.html?slug=nordic-roastery</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://johnanderson.dev/project-details.html?slug=flowboard</loc>
+    <loc>https://johnanderson.dev/project-details.html?slug=monolith-architecture</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://johnanderson.dev/project-details.html?slug=aperture-portfolio</loc>
+    <loc>https://johnanderson.dev/project-details.html?slug=verve-motion-collective</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://johnanderson.dev/blog-details.html?slug=progressive-enhancement-2026</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://johnanderson.dev/blog-details.html?slug=maintainable-css-architecture</loc>
-    <lastmod>2026-09-23</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://johnanderson.dev/blog-details.html?slug=accessible-navigation-menus</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://johnanderson.dev/blog-details.html?slug=json-content-models</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://johnanderson.dev/blog-details.html?slug=core-web-vitals-that-matter</loc>
-    <lastmod>2026-05-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://johnanderson.dev/blog-details.html?slug=figma-to-production</loc>
+    <loc>https://johnanderson.dev/blog-details.html?slug=enduring-power-of-print</loc>
     <lastmod>2026-03-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://johnanderson.dev/blog-details.html?slug=swiss-grid-systems-modern-layout</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://johnanderson.dev/blog-details.html?slug=sustainable-luxury-packaging</loc>
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://johnanderson.dev/blog-details.html?slug=brand-guidelines-teams-use</loc>
+    <lastmod>2025-11-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://johnanderson.dev/blog-details.html?slug=micro-typography-kerning-craft</loc>
+    <lastmod>2025-10-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://johnanderson.dev/blog-details.html?slug=variable-typefaces-editorial-screens</loc>
+    <lastmod>2025-09-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>

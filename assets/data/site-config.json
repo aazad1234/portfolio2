@@ -4,9 +4,9 @@
     "firstName": "John",
     "wordmark": "John",
     "initials": "JA",
-    "role": "Full Stack Developer",
-    "tagline": "Crafting digital experiences with clean code and modern design.",
-    "shortBio": "Full stack developer focused on fast, accessible, and maintainable web products.",
+    "role": "Graphic Designer & Art Director",
+    "tagline": "Crafting distinctive visual identities, bespoke editorial publications, and timeless brand systems.",
+    "shortBio": "Graphic designer and art director specializing in brand identity, typography, editorial print, and packaging design.",
     "yearsExperience": 8
   },
   "url": "https://johnanderson.dev",
@@ -20,9 +20,15 @@
   },
   "socials": [
     {
-      "label": "GitHub",
-      "icon": "ri-github-line",
-      "url": "https://github.com/",
+      "label": "Behance",
+      "icon": "ri-behance-line",
+      "url": "https://behance.net/",
+      "placeholder": true
+    },
+    {
+      "label": "Dribbble",
+      "icon": "ri-dribbble-line",
+      "url": "https://dribbble.com/",
       "placeholder": true
     },
     {
@@ -32,9 +38,9 @@
       "placeholder": true
     },
     {
-      "label": "X (Twitter)",
-      "icon": "ri-twitter-x-line",
-      "url": "https://x.com/",
+      "label": "Instagram",
+      "icon": "ri-instagram-line",
+      "url": "https://instagram.com/",
       "placeholder": true
     }
   ],

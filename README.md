@@ -1,6 +1,6 @@
 # John Anderson Portfolio
 
-A multi-page static portfolio for a full stack developer, built with semantic HTML, modern CSS, and dependency-free JavaScript modules. It includes dedicated pages, data-driven project and article detail views, dark mode, a printable resume, and generated SEO files.
+A multi-page static portfolio for graphic designer & art director John Anderson, built with semantic HTML, modern CSS, and dependency-free JavaScript modules. It includes dedicated pages, data-driven project and article detail views, dark mode, a printable resume, and generated SEO files.
 
 ## Demo content
 

@@ -3,25 +3,25 @@
   "items": [
     {
       "name": "Sarah Thompson",
-      "role": "CEO",
-      "company": "TechStart Inc. (sample)",
-      "quote": "John's expertise in full-stack development helped us launch our product ahead of schedule. His attention to detail and problem-solving skills are exceptional.",
+      "role": "Creative Director",
+      "company": "Kvadrat Editions (sample)",
+      "quote": "John brought an unmatched level of typographic sensitivity and editorial rigor to our monograph series. The balance of negative space, pacing, and paper choice made it a museum-quality publication.",
       "avatar": "assets/images/avatar-sarah.jpg",
       "sample": true
     },
     {
       "name": "Michael Chen",
-      "role": "Founder",
-      "company": "InnovateLab (sample)",
-      "quote": "Working with John was a great experience. He not only delivered high-quality code but also provided valuable insights for improving our product.",
+      "role": "Founder & CEO",
+      "company": "Aura Botanicals (sample)",
+      "quote": "Working with John on our brand identity and packaging suite redefined our company. His deep understanding of sustainable substrates and tactile finishes resulted in shelf presence that our customers constantly celebrate.",
       "avatar": "assets/images/avatar-michael.jpg",
       "sample": true
     },
     {
       "name": "Emily Rodriguez",
-      "role": "CTO",
-      "company": "DataFlow Systems (sample)",
-      "quote": "John's technical expertise and communication skills made him an invaluable asset to our team. He consistently delivered beyond expectations.",
+      "role": "Head of Design",
+      "company": "Verve Motion Studio (sample)",
+      "quote": "John is the rare art director who commands both the classical rules of Swiss typography and modern dynamic visual systems. His brand guidelines are clear, inspiring, and exceptionally practical.",
       "avatar": "assets/images/avatar-emily.jpg",
       "sample": true
     }
