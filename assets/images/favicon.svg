@@ -1,11 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="John Anderson Graphic Designer">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#23150D"/>
-      <stop offset="1" stop-color="#D46743"/>
+    <linearGradient id="p2-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D46743"/>
+      <stop offset="100%" stop-color="#B8502E"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="16" fill="url(#g)"/>
-  <text x="32" y="44" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-size="34" font-weight="800" fill="#FFEAD3">J</text>
-  <circle cx="46" cy="18" r="4" fill="#D46743"/>
+  <!-- Background tile in terracotta gradient -->
+  <rect width="64" height="64" rx="16" fill="url(#p2-grad)"/>
+  
+  <!-- Framing Crop Marks / Print Registration Geometry -->
+  <path d="M8 17 L8 8 L17 8" fill="none" stroke="#FFEAD3" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.45"/>
+  <path d="M56 17 L56 8 L47 8" fill="none" stroke="#FFEAD3" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.45"/>
+  <path d="M8 47 L8 56 L17 56" fill="none" stroke="#FFEAD3" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.45"/>
+  <path d="M56 47 L56 56 L47 56" fill="none" stroke="#FFEAD3" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.45"/>
+
+  <!-- Bold Typographic J in warm cream -->
+  <path d="M39 16H27v6h5v15c0 4.6-2.2 7-6.5 7-2.4 0-4.6-.9-6.3-2.5l-3.5 5.5c2.6 2.2 6.1 3.5 10.3 3.5 8 0 13-4.7 13-13.5V16z" fill="#FFEAD3"/>
+
+  <!-- Pen-Tool Vector Handle & Anchor Node -->
+  <line x1="39" y1="16" x2="51" y2="16" stroke="#FFEAD3" stroke-width="1.8" stroke-dasharray="2 2"/>
+  <rect x="49" y="14" width="4" height="4" fill="#23150D" stroke="#FFEAD3" stroke-width="1"/>
+  
+  <!-- Registration Target Dot -->
+  <circle cx="49" cy="46" r="4.2" fill="#FFEAD3"/>
+  <circle cx="49" cy="46" r="1.8" fill="#23150D"/>
 </svg>
